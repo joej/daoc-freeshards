@@ -1,0 +1,12 @@
+id: abyss
+name: Abyss
+community: en
+runs:
+- start: "2023-09"
+  end: "2023-11"
+  start_sure: exact
+  end_sure: exact
+note: PvP-only; betas only, never launched
+sources:
+- url: https://www.reddit.com/r/daoc/comments/16lt7pf/announcing_abyss_a_server_for_pvp_enjoyers/
+  what: 'Reddit (family-tree post): announced Sep 2023, betas Oct-Nov 2023, never launched'

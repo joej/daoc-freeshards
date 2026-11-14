@@ -1,0 +1,18 @@
+id: celestius
+name: Celestius
+aka:
+- Celestius RvR
+- DOL portal s=1201
+community: en
+runs:
+- start: "2022-01"
+  end: "2022-05"
+  start_sure: approx
+  end_sure: bound
+note: portal record 2,400 online, Feb 2022
+sources:
+- url: https://web.archive.org/web/20211212085239/https://celestiusrvr.com/patchlevel/
+  what: 'archived Celestius site (family-tree post): site from Aug 2021, launch around New Year 2022, quiet after
+    mid-2022'
+- url: https://web.archive.org/web/20220518045544/http://www.dolserver.net/daocportal/
+  what: 'DOL portal front page, 18 May 2022: Celestius RvR (s=1201) 71 online; record 2400 about 2022-02'

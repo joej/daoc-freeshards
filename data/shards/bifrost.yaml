@@ -1,0 +1,21 @@
+id: bifrost
+name: Bifrost
+aka:
+- MMOBifrost
+- Bifrost PvP
+- Bifrost Classic
+- 'Bifrost: The Frontiers'
+- DOL portal s=1021, 1096, 1116, 1164
+community: en
+runs:
+- start: "2016-12"
+  end: "2017-10"
+  start_sure: approx
+  end_sure: approx
+note: custom classes; '200+ players stable' claimed
+sources:
+- url: https://web.archive.org/web/20170131040836/http://www.dolserver.net/daocportal/
+  what: 'DOL portal front page, 31 Jan 2017: MMOBifrost v1.8, Bifrost Classic registered, about 2016-12-31; Bifrost
+    PvP record 50'
+- url: https://web.archive.org/web/20180117231041/http://www.dolserver.net/daocportal/
+  what: 'DOL portal front page, 17 Jan 2018: ''Bifrost: The Frontiers'' supports 200+ players, about 2017-10'

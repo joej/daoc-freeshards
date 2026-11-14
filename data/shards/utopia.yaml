@@ -1,0 +1,20 @@
+id: utopia
+name: Utopia RvR (Dark Age of Chronicles)
+aka:
+- UTOPIA RVR
+- Dark Age of Chronicles
+- daocworld.net
+community: en
+runs:
+- start: "2005-06"
+  end: "2007-09"
+  start_sure: bound
+  end_sure: bound
+note: GMs purged for cheating, Jan 2006
+sources:
+- url: https://www.xtremetop100.com/dark-age-of-camelot
+  what: 'XtremeTop100 live list: entry id 1119892500 = sign-up 27 June 2005'
+- url: http://web.archive.org/web/20060111184334/http://www.daocworld.net/
+  what: 'daocworld.net, 11 Jan 2006: shard down to remove cheating GMs'
+- url: http://web.archive.org/web/20070923001907/http://www.daocworld.net/
+  what: 'daocworld.net, 23 Sep 2007: ''Dark Age of Chronicles, home of Utopia'''

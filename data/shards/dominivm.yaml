@@ -1,0 +1,17 @@
+id: dominivm
+name: Dominivm
+aka:
+- Dominivm Final
+- DOL portal s=839
+community: en
+runs:
+- start: "2011-06"
+  end: "2012"
+  start_sure: bound
+  end_sure: approx
+note: 111 online June 2011, portal's third
+sources:
+- url: https://web.archive.org/web/20110620192733/http://www.dolserver.net/daocportal/
+  what: 'DOL portal front page, 20 June 2011: Dominivm (s=839) 111 online'
+- url: https://web.archive.org/web/20140617114617/http://www.dolserver.net/daocportal/search.php
+  what: 'DOL portal listing, 17 June 2014: ''Dominivm Final [i50 for 2 weeks]'' last seen 2 years ago'

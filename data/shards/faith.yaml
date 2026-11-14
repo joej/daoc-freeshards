@@ -1,0 +1,21 @@
+id: faith
+name: Faith / Bloodline PvP
+aka:
+- Faith [A/D] [RP Bonus]
+- Bloodline PvP
+- Faith PvP 6.0
+- DOL portal s=688
+community: en
+runs:
+- start: "2011-06"
+  end: "2014-01"
+  start_sure: bound
+  end_sure: approx
+note: 135 online June 2011, portal's second
+sources:
+- url: https://web.archive.org/web/20110620192733/http://www.dolserver.net/daocportal/
+  what: 'DOL portal front page, 20 June 2011: Faith [A/D] [RP Bonus] (s=688) 135 online'
+- url: https://web.archive.org/web/20120105062130/http://www.dolserver.net/daocportal/
+  what: 'DOL portal front page, 5 Jan 2012: Bloodline PvP (s=688) 26 online'
+- url: https://web.archive.org/web/20140617114617/http://www.dolserver.net/daocportal/search.php
+  what: 'DOL portal listing, 17 June 2014: ''Faith PvP 6.0'' last seen 5 months ago'

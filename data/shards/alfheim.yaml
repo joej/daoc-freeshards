@@ -1,0 +1,19 @@
+id: alfheim
+name: Alfheim
+aka:
+- Alfheim IV
+- DOL portal s=120, s=130
+community: fr
+runs:
+- start: "2006-02"
+  end: "2013"
+  start_sure: bound
+  end_sure: approx
+note: 11,080 accounts claimed, May 2012
+sources:
+- url: http://web.archive.org/web/20060208113613/http://www.xtremetop100.com:80/dark-age-of-camelot
+  what: 'XtremeTop100 DAoC list, 8 Feb 2006: Alfheim ranked first'
+- url: https://web.archive.org/web/20120523132752/http://alfheim.fr/
+  what: 'alfheim.fr, 23 May 2012: 11,080 accounts, 21,974 characters'
+- url: https://web.archive.org/web/20140617114617/http://www.dolserver.net/daocportal/search.php
+  what: 'DOL portal listing, 17 June 2014: ''Alfheim IV'' last seen 1 year ago'

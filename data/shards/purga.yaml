@@ -1,0 +1,18 @@
+id: purga
+name: Purga / Purga Reloaded
+aka:
+- Purga.ru
+- Purga Reloaded
+- DOL portal s=17
+community: other
+runs:
+- start: "2004"
+  end: "2006"
+  start_sure: exact
+  end_sure: exact
+note: Russian; 100-150 online claimed, 2005
+sources:
+- url: http://web.archive.org/web/20071231055216/http://www.pycb.ru/en/index.php
+  what: 'pycb.ru, 31 Dec 2007: ''©2004—2006 Purga, Purga Reloaded ©2007 Purga Revolution'''
+- url: http://web.archive.org/web/20050606074138/http://gamesites200.com/camelot/
+  what: 'Game Sites 200 DAoC list, June 2005: Purga.ru, ''biggest online (100-150ppl)'''

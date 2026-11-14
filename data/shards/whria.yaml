@@ -1,0 +1,16 @@
+id: whria
+name: Whria
+aka:
+- DOL portal s=1102
+community: other
+runs:
+- start: "2014-12"
+  end: "2016-01"
+  start_sure: approx
+  end_sure: bound
+note: Asia-facing (Korean, Japanese, international); record 75
+sources:
+- url: https://web.archive.org/web/20150111153700/http://www.dolserver.net/daocportal/
+  what: 'DOL portal front page, 11 Jan 2015: Whria (s=1102) 16 online, records 15-75 about 2014-12'
+- url: https://web.archive.org/web/20160128162036/http://www.dolserver.net/daocportal/
+  what: 'DOL portal front page, 28 Jan 2016: ''I50 for internaltional user'', 0 online'

@@ -1,0 +1,14 @@
+id: wrath-of-asgard
+name: Wrath of Asgard
+aka:
+- DOL portal s=1179
+community: en
+runs:
+- start: "2018-05"
+  end: "2018-05"
+  start_sure: approx
+  end_sure: bound
+note: s=1179 renamed; 'Family Server', beta 2
+sources:
+- url: https://web.archive.org/web/20180525033214/http://www.dolserver.net/daocportal/
+  what: 'DOL portal front page, 25 May 2018: Wrath of Asgard (s=1179) 3 online, ''Beta 2 is up'' about 2018-05-23'

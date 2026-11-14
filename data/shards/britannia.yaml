@@ -1,0 +1,19 @@
+id: britannia
+name: Britannia, Terres de légendes
+aka:
+- Britannia
+- DOL portal s=1029
+community: fr
+runs:
+- start: "2013-06"
+  end: "2015-03"
+  start_sure: exact
+  end_sure: bound
+note: custom PvE/GvG, versions 2.0 to 3.18
+sources:
+- url: https://web.archive.org/web/20140215193555/http://britannia-free-rpg.org/
+  what: 'britannia-free-rpg.org, 15 Feb 2014: news from 17 June 2013'
+- url: https://web.archive.org/web/20150801042336/http://britannia-free-rpg.org/
+  what: 'britannia-free-rpg.org, 1 Aug 2015: version 3.18 on 29 Mar 2015'
+- url: https://web.archive.org/web/20150111153700/http://www.dolserver.net/daocportal/
+  what: 'DOL portal front page, 11 Jan 2015: Britannia (s=1029) 2 online'

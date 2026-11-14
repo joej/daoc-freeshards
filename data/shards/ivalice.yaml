@@ -1,0 +1,17 @@
+id: ivalice
+name: Ivalice / Millenium
+aka:
+- Ivalice
+- Millenium
+community: fr
+runs:
+- start: "2008-11"
+  end: "2012-01"
+  start_sure: bound
+  end_sure: bound
+note: PvE; ranked first on rpg-paradize 2008
+sources:
+- url: https://web.archive.org/web/20081112184559/http://www.rpg-paradize.com/top-site-DAOC-1
+  what: 'rpg-paradize DAoC list, Nov 2008: ''Ivalice'' ranked first (entry 4640)'
+- url: https://web.archive.org/web/20120107010330/http://www.rpg-paradize.com/top-site-DAOC-1
+  what: 'rpg-paradize DAoC list, Jan 2012: same entry as ''Millenium'''

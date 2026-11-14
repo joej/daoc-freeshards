@@ -1,0 +1,1436 @@
+{
+ "shards": [
+  {
+   "id": "abendwind",
+   "name": "Abendwind",
+   "aka": [
+    "DOL portal s=843"
+   ],
+   "community": "de",
+   "runs": [
+    {
+     "start": "2004-08",
+     "end": "2014-06",
+     "start_sure": "bound",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "German RP; ran beside Uthgard, 2005",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20040809190537/http://www.abendwind.org/",
+     "what": "abendwind.org, 9 Aug 2004: 'DAoC RP Freeshard Abendwind'"
+    },
+    {
+     "url": "https://web.archive.org/web/20101005021648/http://www.abendwind.org/",
+     "what": "abendwind.org, Oct 2010: server offline 2010-08-23, admin left 2010-09-11"
+    },
+    {
+     "url": "https://web.archive.org/web/20140617114617/http://www.dolserver.net/daocportal/search.php",
+     "what": "DOL portal listing, 17 June 2014: Abendwind last seen 14 hours ago"
+    }
+   ]
+  },
+  {
+   "id": "abyss",
+   "name": "Abyss",
+   "community": "en",
+   "runs": [
+    {
+     "start": "2023-09",
+     "end": "2023-11",
+     "start_sure": "exact",
+     "end_sure": "exact"
+    }
+   ],
+   "note": "PvP-only; betas only, never launched",
+   "sources": [
+    {
+     "url": "https://www.reddit.com/r/daoc/comments/16lt7pf/announcing_abyss_a_server_for_pvp_enjoyers/",
+     "what": "Reddit (family-tree post): announced Sep 2023, betas Oct-Nov 2023, never launched"
+    }
+   ]
+  },
+  {
+   "id": "alfheim",
+   "name": "Alfheim",
+   "aka": [
+    "Alfheim IV",
+    "DOL portal s=120, s=130"
+   ],
+   "community": "fr",
+   "runs": [
+    {
+     "start": "2006-02",
+     "end": "2013",
+     "start_sure": "bound",
+     "end_sure": "approx"
+    }
+   ],
+   "note": "11,080 accounts claimed, May 2012",
+   "sources": [
+    {
+     "url": "http://web.archive.org/web/20060208113613/http://www.xtremetop100.com:80/dark-age-of-camelot",
+     "what": "XtremeTop100 DAoC list, 8 Feb 2006: Alfheim ranked first"
+    },
+    {
+     "url": "https://web.archive.org/web/20120523132752/http://alfheim.fr/",
+     "what": "alfheim.fr, 23 May 2012: 11,080 accounts, 21,974 characters"
+    },
+    {
+     "url": "https://web.archive.org/web/20140617114617/http://www.dolserver.net/daocportal/search.php",
+     "what": "DOL portal listing, 17 June 2014: 'Alfheim IV' last seen 1 year ago"
+    }
+   ]
+  },
+  {
+   "id": "amtenael",
+   "name": "Amtenaël",
+   "aka": [
+    "Amtenael",
+    "Amtenaël - Résurrection",
+    "DOL portal s=1"
+   ],
+   "community": "fr",
+   "runs": [
+    {
+     "start": "2004-08",
+     "end": "2012-01",
+     "start_sure": "exact",
+     "end_sure": "exact"
+    },
+    {
+     "start": "2014-04",
+     "end": "2014-04",
+     "start_sure": "approx",
+     "end_sure": "approx"
+    },
+    {
+     "start": "2015-01",
+     "end": "2015-01",
+     "start_sure": "bound",
+     "end_sure": "bound"
+    },
+    {
+     "start": "2019-07",
+     "end": "2020-02",
+     "start_sure": "exact",
+     "end_sure": "bound"
+    },
+    {
+     "start": "2026-01",
+     "end": "now",
+     "start_sure": "exact",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "first French freeshard; reopened four times",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20040915111945/http://amtenael.com/",
+     "what": "amtenael.com, 15 Sep 2004: 'le premier FreeShard DAOC Français', news from 28 Aug 2004"
+    },
+    {
+     "url": "https://amtenael.fr/viewtopic.php?t=28646",
+     "what": "'Fin des serveurs d'Amtenaël', 27 Jan 2012"
+    },
+    {
+     "url": "https://web.archive.org/web/20140617114617/http://www.dolserver.net/daocportal/search.php",
+     "what": "DOL portal listing, 17 June 2014: Amtenael last seen 2 months ago"
+    },
+    {
+     "url": "https://web.archive.org/web/20150111153700/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 11 Jan 2015: 'Ancien serveur ouvert pour quelques jours !'"
+    },
+    {
+     "url": "https://www.rpg-paradize.com/site-Amtenael-112161",
+     "what": "rpg-paradize entry: 'Ouvert depuis Juillet 2019'"
+    },
+    {
+     "url": "https://web.archive.org/web/20260715004010/http://www.amtenael.fr/",
+     "what": "amtenael.fr, 15 July 2026: game forums stop early 2020; Résurrection 'ouvert depuis le 4 janvier 2026'"
+    },
+    {
+     "url": "https://amtenael.fr/",
+     "what": "amtenael.fr forum index, read 2026-11-14: Résurrection running"
+    }
+   ]
+  },
+  {
+   "id": "ariadolis",
+   "name": "Ariadolis",
+   "aka": [
+    "Ariadolis I50",
+    "Ariadolis Reloaded",
+    "DOL portal s=713, 718, 1084"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2007-01",
+     "end": "2011",
+     "start_sure": "bound",
+     "end_sure": "approx"
+    },
+    {
+     "start": "2014-08",
+     "end": "2014-10",
+     "start_sure": "approx",
+     "end_sure": "bound"
+    },
+    {
+     "start": "2023-09",
+     "start_sure": "exact"
+    }
+   ],
+   "note": "instant-50 Thidranki RvR; revived 2023",
+   "sources": [
+    {
+     "url": "http://web.archive.org/web/20070106043451/http://www.xtremetop100.com:80/dark-age-of-camelot",
+     "what": "XtremeTop100 DAoC list, Jan 2007: first year 'Ariadolis' entry seen (XT 2007-2015)"
+    },
+    {
+     "url": "https://web.archive.org/web/20140617114617/http://www.dolserver.net/daocportal/search.php",
+     "what": "DOL portal listing, 17 June 2014: 'Ariadolis Thidranki RvR' last seen 3 years ago; Ariadolis/Classic/RPx3 4 years ago"
+    },
+    {
+     "url": "https://web.archive.org/web/20141004033203/http://www.dolserver.net/daocportal/server.php?s=1084",
+     "what": "DOL portal s=1084, 4 Oct 2014: Ariadolis I50, records 60-130 '2 months ago'"
+    },
+    {
+     "url": "https://www.reddit.com/r/daoc/comments/155q3ks/i50_ariadolis_reloaded_whats_the_plan_for_classes/",
+     "what": "Reddit (family-tree post): Ariadolis Reloaded launched 8 Sep 2023; end unknown"
+    }
+   ]
+  },
+  {
+   "id": "atlas",
+   "name": "Atlas",
+   "aka": [
+    "Atlas Freeshard",
+    "AtlasCore",
+    "DOL portal s=1196"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2021-06",
+     "end": "2022-05",
+     "start_sure": "approx",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "code released as OpenDAoC, 2022",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20210728095328/http://www.dolserver.net/daocportal/server.php?s=1196",
+     "what": "DOL portal s=1196, 28 July 2021: registered about 2021-06-28, pre-alpha, record 35"
+    },
+    {
+     "url": "https://web.archive.org/web/20220518045544/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 18 May 2022: 'Atlas Freeshard - i50 Last Stage of Beta!', 10 online"
+    },
+    {
+     "url": "https://github.com/OpenDAoC/OpenDAoC-Core",
+     "what": "OpenDAoC (family-tree post): Atlas code became OpenDAoC in 2022"
+    }
+   ]
+  },
+  {
+   "id": "avalonia",
+   "name": "Avalonia",
+   "aka": [
+    "Gondwana",
+    "GondwanaServer",
+    "DOL portal s=1194"
+   ],
+   "community": "fr",
+   "runs": [
+    {
+     "start": "2020-10",
+     "end": "2022-10",
+     "start_sure": "bound",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "French RP; code continues as Gondwana",
+   "sources": [
+    {
+     "url": "https://github.com/DOL-Avalonia/Avalonialauncher",
+     "what": "GitHub DOL-Avalonia: account created 2020-10-25; Avaloniaserver repo 2020-10-25 to 2022-10-25"
+    },
+    {
+     "url": "https://web.archive.org/web/20210126043522/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 26 Jan 2021: 'Avalonia, serveur RP français !' (s=1194), 0 online"
+    },
+    {
+     "url": "https://github.com/DOL-Avalonia/GondwanaServer",
+     "what": "GondwanaServer: created 2022-10-30, last push 2026-10-12; no game server page found"
+    }
+   ]
+  },
+  {
+   "id": "bifrost",
+   "name": "Bifrost",
+   "aka": [
+    "MMOBifrost",
+    "Bifrost PvP",
+    "Bifrost Classic",
+    "Bifrost: The Frontiers",
+    "DOL portal s=1021, 1096, 1116, 1164"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2016-12",
+     "end": "2017-10",
+     "start_sure": "approx",
+     "end_sure": "approx"
+    }
+   ],
+   "note": "custom classes; '200+ players stable' claimed",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20170131040836/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 31 Jan 2017: MMOBifrost v1.8, Bifrost Classic registered, about 2016-12-31; Bifrost PvP record 50"
+    },
+    {
+     "url": "https://web.archive.org/web/20180117231041/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 17 Jan 2018: 'Bifrost: The Frontiers' supports 200+ players, about 2017-10"
+    }
+   ]
+  },
+  {
+   "id": "britannia",
+   "name": "Britannia, Terres de légendes",
+   "aka": [
+    "Britannia",
+    "DOL portal s=1029"
+   ],
+   "community": "fr",
+   "runs": [
+    {
+     "start": "2013-06",
+     "end": "2015-03",
+     "start_sure": "exact",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "custom PvE/GvG, versions 2.0 to 3.18",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20140215193555/http://britannia-free-rpg.org/",
+     "what": "britannia-free-rpg.org, 15 Feb 2014: news from 17 June 2013"
+    },
+    {
+     "url": "https://web.archive.org/web/20150801042336/http://britannia-free-rpg.org/",
+     "what": "britannia-free-rpg.org, 1 Aug 2015: version 3.18 on 29 Mar 2015"
+    },
+    {
+     "url": "https://web.archive.org/web/20150111153700/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 11 Jan 2015: Britannia (s=1029) 2 online"
+    }
+   ]
+  },
+  {
+   "id": "brotherland-2",
+   "name": "Brotherland II",
+   "aka": [
+    "BrotherLand 2",
+    "DOL portal s=409"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2018-05",
+     "end": "2022-05",
+     "start_sure": "bound",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "same portal entry s=409, ToA",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20180525033214/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 25 May 2018: 'Brotherland II' (s=409) 6 online"
+    },
+    {
+     "url": "https://web.archive.org/web/20220518045544/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 18 May 2022: 'Brotherland II New Calegonia Egg Event begins', 0 online"
+    }
+   ]
+  },
+  {
+   "id": "brotherland",
+   "name": "Brotherland",
+   "aka": [
+    "Old Stonehenge",
+    "Brotherland Classic",
+    "Brotherland i50",
+    "DOL portal s=409, s=1055"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2011-06",
+     "end": "2018-01",
+     "start_sure": "bound",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "portal record 229, about 2013",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20110620192733/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 20 June 2011: Brotherland (s=409) 23 online"
+    },
+    {
+     "url": "https://web.archive.org/web/20140617114617/http://www.dolserver.net/daocportal/search.php",
+     "what": "DOL portal listing, 17 June 2014: 'Brotherland Classic' ONLINE with 30 players"
+    },
+    {
+     "url": "https://web.archive.org/web/20160501212732/http://www.dolserver.net/daocportal/server.php?s=409",
+     "what": "DOL portal s=409, 1 May 2016: 'Old Stonehenge', 31 online, record 229 '3 years ago', home page brotherland.phpbb8.de"
+    },
+    {
+     "url": "https://web.archive.org/web/20180117231041/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 17 Jan 2018: 'Brotherland FastLvl50 Event', 18 online"
+    }
+   ]
+  },
+  {
+   "id": "carmelide",
+   "name": "Carmelide",
+   "aka": [
+    "DOL portal s=609"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2012-01",
+     "end": "2012-01",
+     "start_sure": "bound",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "s=609 renamed; Classic/Shrouded Isles",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20120105062130/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 5 Jan 2012: s=609 'Carmelide', 2 online"
+    }
+   ]
+  },
+  {
+   "id": "celestius",
+   "name": "Celestius",
+   "aka": [
+    "Celestius RvR",
+    "DOL portal s=1201"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2022-01",
+     "end": "2022-05",
+     "start_sure": "approx",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "portal record 2,400 online, Feb 2022",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20211212085239/https://celestiusrvr.com/patchlevel/",
+     "what": "archived Celestius site (family-tree post): site from Aug 2021, launch around New Year 2022, quiet after mid-2022"
+    },
+    {
+     "url": "https://web.archive.org/web/20220518045544/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 18 May 2022: Celestius RvR (s=1201) 71 online; record 2400 about 2022-02"
+    }
+   ]
+  },
+  {
+   "id": "degunino",
+   "name": "Degunino DaoC Shard",
+   "community": "other",
+   "runs": [
+    {
+     "start": "2005-06",
+     "end": "2009-06",
+     "start_sure": "bound",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "Moscow ISP-LAN-only shard",
+   "sources": [
+    {
+     "url": "https://www.xtremetop100.com/dark-age-of-camelot",
+     "what": "XtremeTop100 live list: entry id 1119355936 = sign-up 21 June 2005"
+    },
+    {
+     "url": "https://web.archive.org/web/20090605152150/http://daoc.degunino.net/",
+     "what": "daoc.degunino.net, 5 June 2009: ISP block page, subscribers only"
+    }
+   ]
+  },
+  {
+   "id": "dominivm",
+   "name": "Dominivm",
+   "aka": [
+    "Dominivm Final",
+    "DOL portal s=839"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2011-06",
+     "end": "2012",
+     "start_sure": "bound",
+     "end_sure": "approx"
+    }
+   ],
+   "note": "111 online June 2011, portal's third",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20110620192733/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 20 June 2011: Dominivm (s=839) 111 online"
+    },
+    {
+     "url": "https://web.archive.org/web/20140617114617/http://www.dolserver.net/daocportal/search.php",
+     "what": "DOL portal listing, 17 June 2014: 'Dominivm Final [i50 for 2 weeks]' last seen 2 years ago"
+    }
+   ]
+  },
+  {
+   "id": "eden-2009",
+   "name": "Eden (eden-daoc.net, 2009)",
+   "aka": [
+    "Eden (the first)"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2009-08",
+     "end": "2019",
+     "start_sure": "bound",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "7,000 accounts claimed, Aug 2009",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20090826154730/http://www.eden-daoc.net/",
+     "what": "archived eden-daoc.net, 26 Aug 2009 (family-tree post): 7,000 accounts; forum quiet around 2019"
+    }
+   ]
+  },
+  {
+   "id": "eden-2022",
+   "name": "Eden (2022)",
+   "aka": [
+    "Eden",
+    "eden-daoc.net"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2022-12",
+     "end": "now",
+     "start_sure": "exact",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "seasonal; Season 3 from Mar 2025",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20221215000000/https://eden-daoc.net/",
+     "what": "archived Eden site 2022 (family-tree post): launched 10 Dec 2022, Season 3 March 2025"
+    },
+    {
+     "url": "https://eden-daoc.net/viewtopic.php?t=68",
+     "what": "Eden: Seasons! announcement, July 2022"
+    },
+    {
+     "url": "https://eden-daoc.net/journey/",
+     "what": "Eden: Your Journey (Season 3 rules), Nov 2026"
+    },
+    {
+     "url": "https://eden-daoc.net/",
+     "what": "Eden home page: Season 3 ends 10 Dec 2026"
+    }
+   ]
+  },
+  {
+   "id": "eden-dol-148",
+   "name": "Eden (DOL portal s=148)",
+   "aka": [
+    "Eden",
+    "DOL portal s=148"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2014-05",
+     "end": "2015-01",
+     "start_sure": "approx",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "143 online Jan 2015, portal's second",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20140617114617/http://www.dolserver.net/daocportal/search.php",
+     "what": "DOL portal listing, 17 June 2014: Eden, International, '1.114 - ALL', last seen 1 month ago"
+    },
+    {
+     "url": "https://web.archive.org/web/20150111153700/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 11 Jan 2015: Eden 143 online, 'Eden is back online!' about 2015-01-04"
+    }
+   ]
+  },
+  {
+   "id": "faith",
+   "name": "Faith / Bloodline PvP",
+   "aka": [
+    "Faith [A/D] [RP Bonus]",
+    "Bloodline PvP",
+    "Faith PvP 6.0",
+    "DOL portal s=688"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2011-06",
+     "end": "2014-01",
+     "start_sure": "bound",
+     "end_sure": "approx"
+    }
+   ],
+   "note": "135 online June 2011, portal's second",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20110620192733/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 20 June 2011: Faith [A/D] [RP Bonus] (s=688) 135 online"
+    },
+    {
+     "url": "https://web.archive.org/web/20120105062130/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 5 Jan 2012: Bloodline PvP (s=688) 26 online"
+    },
+    {
+     "url": "https://web.archive.org/web/20140617114617/http://www.dolserver.net/daocportal/search.php",
+     "what": "DOL portal listing, 17 June 2014: 'Faith PvP 6.0' last seen 5 months ago"
+    }
+   ]
+  },
+  {
+   "id": "fallen-realms",
+   "name": "Fallen Realms PvP",
+   "aka": [
+    "Fallen Realms PVP FreeShard"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2004-07",
+     "end": "2006-06",
+     "start_sure": "approx",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "one of the earliest English DOL shards",
+   "sources": [
+    {
+     "url": "http://web.archive.org/web/20040902221359/http://www.fallenrealms.net/",
+     "what": "fallenrealms.net, 2 Sep 2004: news 8/28/04 'server has been up for over a month'"
+    },
+    {
+     "url": "http://web.archive.org/web/20060613132923/http://www.fallenrealms.net/",
+     "what": "fallenrealms.net, 13 June 2006: no time 'to put the old Fallen Realms server back up'"
+    }
+   ]
+  },
+  {
+   "id": "genesis",
+   "name": "Genesis",
+   "aka": [
+    "DOL portal s=609"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2014-01",
+     "end": "2016-01",
+     "start_sure": "approx",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "portal record 1,456 online, 2014",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20141220055946/http://www.dolserver.net/daocportal/server.php?s=609",
+     "what": "DOL portal s=609, 20 Dec 2014: records 1000-1410 '10-11 months ago', most ever 1456"
+    },
+    {
+     "url": "https://web.archive.org/web/20140617114617/http://www.dolserver.net/daocportal/search.php",
+     "what": "DOL portal listing, 17 June 2014: Genesis ONLINE with 131 players"
+    },
+    {
+     "url": "https://web.archive.org/web/20150111153700/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 11 Jan 2015: Genesis 357 online"
+    },
+    {
+     "url": "https://web.archive.org/web/20160128162036/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 28 Jan 2016: Genesis 311 online"
+    }
+   ]
+  },
+  {
+   "id": "heimdall-609",
+   "name": "Heimdall Old RA - Old Frontiers",
+   "aka": [
+    "DOL portal s=609"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2011-06",
+     "end": "2011-06",
+     "start_sure": "bound",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "first name of portal entry s=609",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20110620192733/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 20 June 2011: s=609 'Heimdall Old RA - Old Frontiers', 0 online"
+    }
+   ]
+  },
+  {
+   "id": "heimdall-fr",
+   "name": "Heimdall (French)",
+   "aka": [
+    "heimdall.xooit.com"
+   ],
+   "community": "fr",
+   "runs": [
+    {
+     "start": "2010-01",
+     "end": "2012-01",
+     "start_sure": "bound",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "Classic/SI, Old Frontiers, translated to French",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20100102013842/http://www.rpg-paradize.com/top-site-DAOC-1",
+     "what": "rpg-paradize DAoC list, Jan 2010: Heimdall (heimdall.xooit.com)"
+    },
+    {
+     "url": "https://web.archive.org/web/20120107010330/http://www.rpg-paradize.com/top-site-DAOC-1",
+     "what": "rpg-paradize DAoC list, Jan 2012: last year listed"
+    }
+   ]
+  },
+  {
+   "id": "instant50",
+   "name": "Instant 50 RvR (instant50.de)",
+   "aka": [
+    "Instant 50 - RvR",
+    "Instant50 RvR"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2006-01",
+     "end": "2006-08",
+     "start_sure": "bound",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "262 online claimed, Aug 2006",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20060808174446/http://www.instant50.de/",
+     "what": "instant50.de, 8 Aug 2006: 'Pop: 262 / 315', 5787 registered; forum record 117 on 14 Jan 2006"
+    }
+   ]
+  },
+  {
+   "id": "ivalice",
+   "name": "Ivalice / Millenium",
+   "aka": [
+    "Ivalice",
+    "Millenium"
+   ],
+   "community": "fr",
+   "runs": [
+    {
+     "start": "2008-11",
+     "end": "2012-01",
+     "start_sure": "bound",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "PvE; ranked first on rpg-paradize 2008",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20081112184559/http://www.rpg-paradize.com/top-site-DAOC-1",
+     "what": "rpg-paradize DAoC list, Nov 2008: 'Ivalice' ranked first (entry 4640)"
+    },
+    {
+     "url": "https://web.archive.org/web/20120107010330/http://www.rpg-paradize.com/top-site-DAOC-1",
+     "what": "rpg-paradize DAoC list, Jan 2012: same entry as 'Millenium'"
+    }
+   ]
+  },
+  {
+   "id": "kheldron",
+   "name": "Kheldron - Die alte Welt",
+   "aka": [
+    "Kheldron",
+    "DOL portal s=50"
+   ],
+   "community": "de",
+   "runs": [
+    {
+     "start": "2005-11",
+     "end": "2014-12",
+     "start_sure": "bound",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "'one of the first German freeshards'",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20051118174743/http://www.kheldron.de/",
+     "what": "kheldron.de, 18 Nov 2005: earliest capture, © 2005"
+    },
+    {
+     "url": "https://web.archive.org/web/20141004033244/http://www.dolserver.net/daocportal/server.php?s=50",
+     "what": "DOL portal s=50, 4 Oct 2014: still reporting, record 13"
+    },
+    {
+     "url": "https://web.archive.org/web/20260521130809/http://www.kheldron.de/",
+     "what": "kheldron.de, 21 May 2026: last game news 24 Dec 2014 (crash, restart)"
+    }
+   ]
+  },
+  {
+   "id": "la-grande-bataille",
+   "name": "La Grande Bataille",
+   "community": "fr",
+   "runs": [
+    {
+     "start": "2007-01",
+     "end": "2008-11",
+     "start_sure": "bound",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "'100/200 joueurs' capacity claimed; no instant-50",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20070118103233/http://www.rpg-paradize.com/list_site-1",
+     "what": "rpg-paradize DAoC list, 18 Jan 2007: #3 'Grande Bataille V 2.0'"
+    },
+    {
+     "url": "https://web.archive.org/web/20081112184559/http://www.rpg-paradize.com/top-site-DAOC-1",
+     "what": "rpg-paradize DAoC list, Nov 2008: still listed"
+    }
+   ]
+  },
+  {
+   "id": "made-in-goulag",
+   "name": "Made In Goulag",
+   "aka": [
+    "MIG",
+    "[[[MIG]]] Made In Goulag"
+   ],
+   "community": "fr",
+   "runs": [
+    {
+     "start": "2008-11",
+     "end": "2012-01",
+     "start_sure": "bound",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "claimed 'Numéro 1 des Freeshard FR'",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20081112184559/http://www.rpg-paradize.com/top-site-DAOC-1",
+     "what": "rpg-paradize DAoC list, Nov 2008: [[[MIG]]] Made In Goulag"
+    },
+    {
+     "url": "https://web.archive.org/web/20120107010330/http://www.rpg-paradize.com/top-site-DAOC-1",
+     "what": "rpg-paradize DAoC list, Jan 2012: last year listed"
+    }
+   ]
+  },
+  {
+   "id": "messina",
+   "name": "Messina Shard",
+   "aka": [
+    "MessinaPvP"
+   ],
+   "community": "other",
+   "runs": [
+    {
+     "start": "2007-04",
+     "end": "2008-01",
+     "start_sure": "bound",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "Italian PvP; record 21 online",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20070504021612/http://www.messinapvp.com/public/sito/page.php?4",
+     "what": "messinapvp.com, 4 May 2007: 116 members, record 21 online on 4 Apr"
+    },
+    {
+     "url": "https://web.archive.org/web/20080101/http://www.messinapvp.com/public/sito/index.php",
+     "what": "messinapvp.com, early 2008: 460 members, chat calls it deserted"
+    }
+   ]
+  },
+  {
+   "id": "mordred",
+   "name": "Mordred",
+   "aka": [
+    "DOL portal s=1190"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2020-12",
+     "end": "2022-05",
+     "start_sure": "exact",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "portal record 510, Dec 2020",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20210730181352/http://www.dolserver.net/daocportal/server.php?s=1190",
+     "what": "DOL portal s=1190, 30 July 2021: 'Mordred Alpha Test 27/12/2020', beta 06/07/2021, launch planned September"
+    },
+    {
+     "url": "https://web.archive.org/web/20210126043522/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 26 Jan 2021: pre-alpha open, record 510 about 2020-12-29"
+    },
+    {
+     "url": "https://web.archive.org/web/20220518045544/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 18 May 2022: still 'Instant 50 Open Beta Test', 0 online"
+    }
+   ]
+  },
+  {
+   "id": "origins",
+   "name": "Origins",
+   "aka": [
+    "Origins/Genesis",
+    "daoc-origins.net"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2016-12",
+     "end": "2017-07",
+     "start_sure": "approx",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "s=609 renamed; open beta Jan 2017",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20170131040836/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 31 Jan 2017: s=609 'Origins [Open Beta]', 23 online; 'Merlin has registered a new server Origins' about 2016-12-31"
+    },
+    {
+     "url": "http://web.archive.org/web/20170710181145/http://www.dolserver.net/daocportal/server.php?s=609",
+     "what": "last archived capture of portal s=609, 10 July 2017 (CDX; page not read)"
+    },
+    {
+     "url": "https://www.xtremetop100.com/dark-age-of-camelot",
+     "what": "XtremeTop100 live list: 'Genesis DAOC freeshard', daoc-origins.net"
+    }
+   ]
+  },
+  {
+   "id": "phoenix",
+   "name": "Phoenix",
+   "aka": [
+    "playphoenix.online"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2018-03",
+     "end": "2021-08",
+     "start_sure": "exact",
+     "end_sure": "exact"
+    }
+   ],
+   "note": "beta Mar 2018, launch Jan 2019",
+   "sources": [
+    {
+     "url": "https://www.tentonhammer.com/news/dark-age-of-camelot-reborn-as-phoenix-freeshard",
+     "what": "Ten Ton Hammer (family-tree post): beta March 2018, launch 12 Jan 2019"
+    },
+    {
+     "url": "https://web.archive.org/web/20220817191420/https://playphoenix.online/forum/server/tavern/29939-the-sky-is-really-falling-this-time",
+     "what": "Phoenix closing announcement (family-tree post): closed 31 Aug 2021"
+    }
+   ]
+  },
+  {
+   "id": "purga-revolution",
+   "name": "Purga Revolution",
+   "aka": [
+    "pycb.ru"
+   ],
+   "community": "other",
+   "runs": [
+    {
+     "start": "2007",
+     "end": "2009",
+     "start_sure": "exact",
+     "end_sure": "approx"
+    }
+   ],
+   "note": "Russian 'Purga 3-d edition', Yekaterinburg",
+   "sources": [
+    {
+     "url": "http://web.archive.org/web/20071231055216/http://www.pycb.ru/en/index.php",
+     "what": "pycb.ru, 31 Dec 2007: '©2007 Purga Revolution'; old Purga characters moved over"
+    },
+    {
+     "url": "https://web.archive.org/web/20140617114617/http://www.dolserver.net/daocportal/search.php",
+     "what": "DOL portal listing, 17 June 2014: 'Purga' last seen 5 years ago"
+    }
+   ]
+  },
+  {
+   "id": "purga",
+   "name": "Purga / Purga Reloaded",
+   "aka": [
+    "Purga.ru",
+    "Purga Reloaded",
+    "DOL portal s=17"
+   ],
+   "community": "other",
+   "runs": [
+    {
+     "start": "2004",
+     "end": "2006",
+     "start_sure": "exact",
+     "end_sure": "exact"
+    }
+   ],
+   "note": "Russian; 100-150 online claimed, 2005",
+   "sources": [
+    {
+     "url": "http://web.archive.org/web/20071231055216/http://www.pycb.ru/en/index.php",
+     "what": "pycb.ru, 31 Dec 2007: '©2004—2006 Purga, Purga Reloaded ©2007 Purga Revolution'"
+    },
+    {
+     "url": "http://web.archive.org/web/20050606074138/http://gamesites200.com/camelot/",
+     "what": "Game Sites 200 DAoC list, June 2005: Purga.ru, 'biggest online (100-150ppl)'"
+    }
+   ]
+  },
+  {
+   "id": "sanctum",
+   "name": "Sanctum",
+   "aka": [
+    "DOL portal s=1179"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2020-02",
+     "end": "2020-03",
+     "start_sure": "approx",
+     "end_sure": "approx"
+    }
+   ],
+   "note": "s=1179 renamed; open beta, 26 logins",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20200406170233/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 6 Apr 2020: Sanctum (Open Beta) (s=1179) about 2020-02, 'New high logins today 26' about 2020-03"
+    }
+   ]
+  },
+  {
+   "id": "terra-nova",
+   "name": "Terra Nova",
+   "aka": [
+    "DOL portal s=1003"
+   ],
+   "community": "de",
+   "runs": [
+    {
+     "start": "2013-12",
+     "end": "2018-01",
+     "start_sure": "approx",
+     "end_sure": "approx"
+    },
+    {
+     "start": "2022-02",
+     "end": "2022-05",
+     "start_sure": "approx",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "closed 'forever' 2018, restarted 2022",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20141004033132/http://www.dolserver.net/daocportal/server.php?s=1003",
+     "what": "DOL portal s=1003, 4 Oct 2014: 'Open Now' about 2013-12"
+    },
+    {
+     "url": "https://web.archive.org/web/20180525033214/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 25 May 2018: 'we Close now forever ... 5 Years Support' about 2018-01"
+    },
+    {
+     "url": "https://web.archive.org/web/20220518045544/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 18 May 2022: 'Wir Starten mit einer Neuen Version' about 2022-02; Staff Only"
+    }
+   ]
+  },
+  {
+   "id": "ultima-alianza",
+   "name": "Ultima Alianza DAOC",
+   "aka": [
+    "UA-DAOC"
+   ],
+   "community": "other",
+   "runs": [
+    {
+     "start": "2005-05",
+     "end": "2007-10",
+     "start_sure": "exact",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "Spanish PvP, running from 5 May 2005",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20050527015957/http://ultima-alianza.com/daoc/",
+     "what": "ultima-alianza.com/daoc, 27 May 2005: 'funcionando desde el 05/05/2005', Online"
+    },
+    {
+     "url": "https://web.archive.org/web/20071023051215/http://ultima-alianza.com/daoc/",
+     "what": "ultima-alianza.com/daoc, 23 Oct 2007: offline, waiting for admins"
+    }
+   ]
+  },
+  {
+   "id": "uthgard-1",
+   "name": "Uthgard",
+   "aka": [
+    "Uthgard 1",
+    "DOL portal s=11"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2003",
+     "end": "2013-12",
+     "start_sure": "approx",
+     "end_sure": "approx"
+    }
+   ],
+   "note": "record 1,500 online, late 2013",
+   "sources": [
+    {
+     "url": "https://forums.overclockers.co.uk/threads/dark-age-of-camelot-uthgard-2-0.18729859/",
+     "what": "Uthgard 2.0 announcement (family-tree post): Uthgard 1 about 2003 to 2013"
+    },
+    {
+     "url": "https://web.archive.org/web/20140201204627/http://www.dolserver.net/daocportal/server.php?s=11",
+     "what": "DOL portal s=11, 1 Feb 2014: closed for overhaul; record 1500 '2 months ago'"
+    },
+    {
+     "url": "https://web.archive.org/web/20110620192733/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 20 June 2011: Uthgard 1035 online"
+    }
+   ]
+  },
+  {
+   "id": "uthgard-2",
+   "name": "Uthgard 2",
+   "aka": [
+    "Uthgard 2.0",
+    "DOL portal s=11"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2016-05",
+     "end": "2022-05",
+     "start_sure": "exact",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "record 4,160 online, Jan 2017",
+   "sources": [
+    {
+     "url": "https://forums.overclockers.co.uk/threads/dark-age-of-camelot-uthgard-2-0.18729859/",
+     "what": "Uthgard 2.0 announcement (family-tree post): open beta 7 May 2016"
+    },
+    {
+     "url": "https://web.archive.org/web/20170131040836/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 31 Jan 2017: 2199 online, record 4160"
+    },
+    {
+     "url": "https://web.archive.org/web/20220518045544/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 18 May 2022: 8 online (last front-page sighting)"
+    }
+   ]
+  },
+  {
+   "id": "utopia",
+   "name": "Utopia RvR (Dark Age of Chronicles)",
+   "aka": [
+    "UTOPIA RVR",
+    "Dark Age of Chronicles",
+    "daocworld.net"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2005-06",
+     "end": "2007-09",
+     "start_sure": "bound",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "GMs purged for cheating, Jan 2006",
+   "sources": [
+    {
+     "url": "https://www.xtremetop100.com/dark-age-of-camelot",
+     "what": "XtremeTop100 live list: entry id 1119892500 = sign-up 27 June 2005"
+    },
+    {
+     "url": "http://web.archive.org/web/20060111184334/http://www.daocworld.net/",
+     "what": "daocworld.net, 11 Jan 2006: shard down to remove cheating GMs"
+    },
+    {
+     "url": "http://web.archive.org/web/20070923001907/http://www.daocworld.net/",
+     "what": "daocworld.net, 23 Sep 2007: 'Dark Age of Chronicles, home of Utopia'"
+    }
+   ]
+  },
+  {
+   "id": "venedictos",
+   "name": "Venedictos",
+   "aka": [
+    "DOL portal s=1179"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2017-10",
+     "end": "2017-11",
+     "start_sure": "approx",
+     "end_sure": "approx"
+    }
+   ],
+   "note": "registered Oct 2017, live planned Nov",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20180117231041/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 17 Jan 2018: Venedictos (Beta) (s=1179) registered about 2017-10-17, 'EST for Live is Thursday 11/16/2017'"
+    }
+   ]
+  },
+  {
+   "id": "whria",
+   "name": "Whria",
+   "aka": [
+    "DOL portal s=1102"
+   ],
+   "community": "other",
+   "runs": [
+    {
+     "start": "2014-12",
+     "end": "2016-01",
+     "start_sure": "approx",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "Asia-facing (Korean, Japanese, international); record 75",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20150111153700/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 11 Jan 2015: Whria (s=1102) 16 online, records 15-75 about 2014-12"
+    },
+    {
+     "url": "https://web.archive.org/web/20160128162036/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 28 Jan 2016: 'I50 for internaltional user', 0 online"
+    }
+   ]
+  },
+  {
+   "id": "wrath-of-asgard",
+   "name": "Wrath of Asgard",
+   "aka": [
+    "DOL portal s=1179"
+   ],
+   "community": "en",
+   "runs": [
+    {
+     "start": "2018-05",
+     "end": "2018-05",
+     "start_sure": "approx",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "s=1179 renamed; 'Family Server', beta 2",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20180525033214/http://www.dolserver.net/daocportal/",
+     "what": "DOL portal front page, 25 May 2018: Wrath of Asgard (s=1179) 3 online, 'Beta 2 is up' about 2018-05-23"
+    }
+   ]
+  },
+  {
+   "id": "ysendar",
+   "name": "Ysendar",
+   "aka": [
+    "ysendar-freeshard.org",
+    "DOL portal s=243"
+   ],
+   "community": "fr",
+   "runs": [
+    {
+     "start": "2008-11",
+     "end": "2012-01",
+     "start_sure": "bound",
+     "end_sure": "bound"
+    }
+   ],
+   "note": "RP/PvP, guild-capturable castles",
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20081112184559/http://www.rpg-paradize.com/top-site-DAOC-1",
+     "what": "rpg-paradize DAoC list, Nov 2008: Ysendar listed"
+    },
+    {
+     "url": "https://web.archive.org/web/20120107010330/http://www.rpg-paradize.com/top-site-DAOC-1",
+     "what": "rpg-paradize DAoC list, Jan 2012: last year listed"
+    },
+    {
+     "url": "https://web.archive.org/web/20140617114617/http://www.dolserver.net/daocportal/search.php",
+     "what": "DOL portal listing, 17 June 2014: Ysendar last seen 5 years ago (conflict)"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "uthgard-1",
+   "to": "uthgard-2",
+   "kind": "rename",
+   "evidence": "Same shard relaunched as Uthgard 2.0 after two and a half years of rebuilding; same portal entry s=11.",
+   "source": "https://forums.overclockers.co.uk/threads/dark-age-of-camelot-uthgard-2-0.18729859/"
+  },
+  {
+   "from": "heimdall-609",
+   "to": "carmelide",
+   "kind": "rename",
+   "evidence": "Same DOL portal entry s=609: 'Heimdall Old RA - Old Frontiers' (June 2011), 'Carmelide' (Jan 2012).",
+   "source": "https://web.archive.org/web/20120105062130/http://www.dolserver.net/daocportal/"
+  },
+  {
+   "from": "carmelide",
+   "to": "genesis",
+   "kind": "rename",
+   "evidence": "Same DOL portal entry s=609: 'Carmelide' (Jan 2012), 'Genesis' (2014-2016).",
+   "source": "https://web.archive.org/web/20141220055946/http://www.dolserver.net/daocportal/server.php?s=609"
+  },
+  {
+   "from": "genesis",
+   "to": "origins",
+   "kind": "rename",
+   "evidence": "Same DOL portal entry s=609 shows 'Origins [Open Beta]' in Jan 2017; XT lists 'Genesis DAOC freeshard' at daoc-origins.net.",
+   "source": "https://web.archive.org/web/20170131040836/http://www.dolserver.net/daocportal/"
+  },
+  {
+   "from": "origins",
+   "to": "phoenix",
+   "kind": "staff",
+   "evidence": "Family-tree post: Phoenix had about half Origins/Genesis staff; players called it 'Origins 2 (same team, more or less)'.",
+   "source": "https://web.archive.org/web/20220817191420/https://playphoenix.online/forum/server/tavern/29939-the-sky-is-really-falling-this-time"
+  },
+  {
+   "from": "phoenix",
+   "to": "atlas",
+   "kind": "staff",
+   "evidence": "Family-tree post: a Phoenix developer helped Atlas; early leaked Phoenix code (not usable as is) shaped Atlas's architecture.",
+   "source": "https://web.archive.org/web/20220817191420/https://playphoenix.online/forum/server/tavern/29939-the-sky-is-really-falling-this-time"
+  },
+  {
+   "from": "phoenix",
+   "to": "celestius",
+   "kind": "staff",
+   "evidence": "Family-tree post: Celestius started by developers who left Phoenix; players credited a Phoenix developer.",
+   "source": "https://www.reddit.com/r/daoc/comments/riok6e/celestius_freeshard_what_is_celestius_and_how_is/"
+  },
+  {
+   "from": "celestius",
+   "to": "eden-2022",
+   "kind": "staff",
+   "evidence": "Family-tree post puts Eden after Celestius in one line (bm01's account); Celestius's old Discord invite now leads to Eden. Kind of tie not stated.",
+   "source": "https://web.archive.org/web/20211212085239/https://celestiusrvr.com/patchlevel/"
+  },
+  {
+   "from": "brotherland",
+   "to": "brotherland-2",
+   "kind": "rename",
+   "evidence": "Same DOL portal entry s=409: Brotherland (2011) ... Old Stonehenge (2016) ... Brotherland II (May 2018).",
+   "source": "https://web.archive.org/web/20180525033214/http://www.dolserver.net/daocportal/"
+  },
+  {
+   "from": "venedictos",
+   "to": "wrath-of-asgard",
+   "kind": "rename",
+   "evidence": "Same DOL portal entry s=1179, same news text.",
+   "source": "https://web.archive.org/web/20180525033214/http://www.dolserver.net/daocportal/"
+  },
+  {
+   "from": "wrath-of-asgard",
+   "to": "sanctum",
+   "kind": "rename",
+   "evidence": "Same DOL portal entry s=1179 'recreated and remolded' as Sanctum (Open Beta).",
+   "source": "https://web.archive.org/web/20200406170233/http://www.dolserver.net/daocportal/"
+  },
+  {
+   "from": "purga",
+   "to": "purga-revolution",
+   "kind": "rename",
+   "evidence": "'Purga Revolution (Purga 3-d edition)' is the same DAoC-Rus team project; old Purga characters were moved to Revolution.",
+   "source": "http://web.archive.org/web/20071231055216/http://www.pycb.ru/en/index.php"
+  },
+  {
+   "from": "amtenael",
+   "to": "avalonia",
+   "kind": "code",
+   "evidence": "GondwanaServer ('following Amtenael and Avalonia') is a DOLSharp fork carrying Amtenaël's AmteScripts. Whether Résurrection runs it: not stated.",
+   "source": "https://github.com/DOL-Avalonia/GondwanaServer"
+  },
+  {
+   "from": "uthgard-1",
+   "to": "abendwind",
+   "kind": "staff",
+   "evidence": "2005 listing: the Camelotserver community ran both the international OOC shard Uthgard and the German RP shard Abendwind; 2006 forum: same emulator.",
+   "source": "http://web.archive.org/web/20050606074138/http://gamesites200.com/camelot/"
+  }
+ ]
+}

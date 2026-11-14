@@ -1,0 +1,44 @@
+# Shards we know of but can't date well enough yet. Help wanted.
+leads:
+- name: Storm RvR / Storm D2 (DOL portal s=24, s=837)
+  reason: DOL team's official test servers, not player shards; mostly 0 online after 2012 (records 116 and 66).
+- name: Atlantis (Trials of Atlantis, s=952)
+  reason: Listed 2012-2022 but never left pre-alpha (record 15); a listing, not a running shard.
+- name: Lethantis (s=1124)
+  reason: Record 220 (Jan 2016), but only two front-page sightings (Dec 2015-Jan 2017); cut for space.
+- name: Blackfire RvR (Thidranki Fun Time)
+  reason: Ran about two months (Oct-Dec 2005), ~70 online claimed; cut for space.
+- name: Freyad NF (s=1038)
+  reason: Listed 2014-2018 with 0-7 online; nothing beyond portal presence.
+- name: Kings of Realms (Italian)
+  reason: Only one cited dated capture (Apr 2005, news 27 Mar 2005); later range given without a URL.
+- name: Promise Shard (Italian)
+  reason: One 2005 listing plus a 2014 'last seen 5 years ago' that may be a different restart; too thin.
+- name: HispaDAoC (Spanish)
+  reason: Site captures 2004-2009 only; the shard's content was never read.
+- name: Yvaliss (French)
+  reason: 'Only one sighting (rpg-paradize Jan 2007, #2); possibly the same rpg-paradize entry (num=1053) as Ysendar
+    later.'
+- name: Old Frontier (French)
+  reason: 'Start stated (mid-July 2009), but no end or last-seen: listing text frozen 2010-2026.'
+- name: New Frontiers (French), Runes of Dark Age (French)
+  reason: Only stale toplist listings (2013-2022, 2014-2026); nothing shows the server running.
+- name: Realm Wars (French)
+  reason: rpg-paradize 2013-2014 only; cut for space.
+- name: Epic War, Cocyte, Fantasia, Valinor, Guerre Éternelle, Cursed Spirit, Challenge (French)
+  reason: Undated toplist blurbs (vtop100/XT); at most a sign-up date.
+- name: Instant PvP / iPvP 2.0, Shattered Realms, Realm of Alana, Camelots Court, Crystal Caverns, DemonicCamelot,
+    Tides of War
+  reason: Toplist presence only, or a single dated sighting.
+- name: Dark Age of Origins, Deity Node, Los Ojos Rojos, Valhalla PvP, Arkadia and other post-2017 portal names
+  reason: One or two news lines, little or no population.
+- name: Urzaria, Midgard Chronicles, Taklarush, Cybergolem, Nordland (German)
+  reason: Only a 2014 'last seen' (or a staff-only listing); no start date.
+- name: Merlino Server (Italian)
+  reason: Unverified search summary only; site not reachable.
+- name: Hungarian Kingdom, dark.reality.lv, Different Reality, FUNSERVERS.NL.NU, Cometa
+  reason: Single sighting each (2005 listing or 2014 'last seen').
+- name: Blackthorn
+  reason: 'Not yet running: launch announced for 28 Nov 2026.'
+- name: OpenDAoC
+  reason: A codebase, not a shard (Atlas's code, 2022); no Atlas -> OpenDAoC link for that reason.

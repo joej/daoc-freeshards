@@ -1,0 +1,16 @@
+id: fallen-realms
+name: Fallen Realms PvP
+aka:
+- Fallen Realms PVP FreeShard
+community: en
+runs:
+- start: "2004-07"
+  end: "2006-06"
+  start_sure: approx
+  end_sure: bound
+note: one of the earliest English DOL shards
+sources:
+- url: http://web.archive.org/web/20040902221359/http://www.fallenrealms.net/
+  what: 'fallenrealms.net, 2 Sep 2004: news 8/28/04 ''server has been up for over a month'''
+- url: http://web.archive.org/web/20060613132923/http://www.fallenrealms.net/
+  what: 'fallenrealms.net, 13 June 2006: no time ''to put the old Fallen Realms server back up'''

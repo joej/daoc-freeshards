@@ -1,0 +1,17 @@
+id: brotherland-2
+name: Brotherland II
+aka:
+- BrotherLand 2
+- DOL portal s=409
+community: en
+runs:
+- start: "2018-05"
+  end: "2022-05"
+  start_sure: bound
+  end_sure: bound
+note: same portal entry s=409, ToA
+sources:
+- url: https://web.archive.org/web/20180525033214/http://www.dolserver.net/daocportal/
+  what: 'DOL portal front page, 25 May 2018: ''Brotherland II'' (s=409) 6 online'
+- url: https://web.archive.org/web/20220518045544/http://www.dolserver.net/daocportal/
+  what: 'DOL portal front page, 18 May 2022: ''Brotherland II New Calegonia Egg Event begins'', 0 online'

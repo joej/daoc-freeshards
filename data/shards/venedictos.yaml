@@ -1,0 +1,15 @@
+id: venedictos
+name: Venedictos
+aka:
+- DOL portal s=1179
+community: en
+runs:
+- start: "2017-10"
+  end: "2017-11"
+  start_sure: approx
+  end_sure: approx
+note: registered Oct 2017, live planned Nov
+sources:
+- url: https://web.archive.org/web/20180117231041/http://www.dolserver.net/daocportal/
+  what: 'DOL portal front page, 17 Jan 2018: Venedictos (Beta) (s=1179) registered about 2017-10-17, ''EST for Live
+    is Thursday 11/16/2017'''

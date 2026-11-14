@@ -1,0 +1,14 @@
+id: eden-2009
+name: Eden (eden-daoc.net, 2009)
+aka:
+- Eden (the first)
+community: en
+runs:
+- start: "2009-08"
+  end: "2019"
+  start_sure: bound
+  end_sure: bound
+note: 7,000 accounts claimed, Aug 2009
+sources:
+- url: https://web.archive.org/web/20090826154730/http://www.eden-daoc.net/
+  what: 'archived eden-daoc.net, 26 Aug 2009 (family-tree post): 7,000 accounts; forum quiet around 2019'

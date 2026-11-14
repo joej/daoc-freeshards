@@ -1,0 +1,16 @@
+id: phoenix
+name: Phoenix
+aka:
+- playphoenix.online
+community: en
+runs:
+- start: "2018-03"
+  end: "2021-08"
+  start_sure: exact
+  end_sure: exact
+note: beta Mar 2018, launch Jan 2019
+sources:
+- url: https://www.tentonhammer.com/news/dark-age-of-camelot-reborn-as-phoenix-freeshard
+  what: 'Ten Ton Hammer (family-tree post): beta March 2018, launch 12 Jan 2019'
+- url: https://web.archive.org/web/20220817191420/https://playphoenix.online/forum/server/tavern/29939-the-sky-is-really-falling-this-time
+  what: 'Phoenix closing announcement (family-tree post): closed 31 Aug 2021'

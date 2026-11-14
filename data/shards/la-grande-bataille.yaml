@@ -1,0 +1,14 @@
+id: la-grande-bataille
+name: La Grande Bataille
+community: fr
+runs:
+- start: "2007-01"
+  end: "2008-11"
+  start_sure: bound
+  end_sure: bound
+note: '''100/200 joueurs'' capacity claimed; no instant-50'
+sources:
+- url: https://web.archive.org/web/20070118103233/http://www.rpg-paradize.com/list_site-1
+  what: 'rpg-paradize DAoC list, 18 Jan 2007: #3 ''Grande Bataille V 2.0'''
+- url: https://web.archive.org/web/20081112184559/http://www.rpg-paradize.com/top-site-DAOC-1
+  what: 'rpg-paradize DAoC list, Nov 2008: still listed'

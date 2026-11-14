@@ -1,0 +1,20 @@
+id: atlas
+name: Atlas
+aka:
+- Atlas Freeshard
+- AtlasCore
+- DOL portal s=1196
+community: en
+runs:
+- start: "2021-06"
+  end: "2022-05"
+  start_sure: approx
+  end_sure: bound
+note: code released as OpenDAoC, 2022
+sources:
+- url: https://web.archive.org/web/20210728095328/http://www.dolserver.net/daocportal/server.php?s=1196
+  what: 'DOL portal s=1196, 28 July 2021: registered about 2021-06-28, pre-alpha, record 35'
+- url: https://web.archive.org/web/20220518045544/http://www.dolserver.net/daocportal/
+  what: 'DOL portal front page, 18 May 2022: ''Atlas Freeshard - i50 Last Stage of Beta!'', 10 online'
+- url: https://github.com/OpenDAoC/OpenDAoC-Core
+  what: 'OpenDAoC (family-tree post): Atlas code became OpenDAoC in 2022'

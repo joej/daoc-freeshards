@@ -1,0 +1,18 @@
+id: mordred
+name: Mordred
+aka:
+- DOL portal s=1190
+community: en
+runs:
+- start: "2020-12"
+  end: "2022-05"
+  start_sure: exact
+  end_sure: bound
+note: portal record 510, Dec 2020
+sources:
+- url: https://web.archive.org/web/20210730181352/http://www.dolserver.net/daocportal/server.php?s=1190
+  what: 'DOL portal s=1190, 30 July 2021: ''Mordred Alpha Test 27/12/2020'', beta 06/07/2021, launch planned September'
+- url: https://web.archive.org/web/20210126043522/http://www.dolserver.net/daocportal/
+  what: 'DOL portal front page, 26 Jan 2021: pre-alpha open, record 510 about 2020-12-29'
+- url: https://web.archive.org/web/20220518045544/http://www.dolserver.net/daocportal/
+  what: 'DOL portal front page, 18 May 2022: still ''Instant 50 Open Beta Test'', 0 online'

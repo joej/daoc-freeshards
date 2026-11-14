@@ -1,0 +1,19 @@
+id: ysendar
+name: Ysendar
+aka:
+- ysendar-freeshard.org
+- DOL portal s=243
+community: fr
+runs:
+- start: "2008-11"
+  end: "2012-01"
+  start_sure: bound
+  end_sure: bound
+note: RP/PvP, guild-capturable castles
+sources:
+- url: https://web.archive.org/web/20081112184559/http://www.rpg-paradize.com/top-site-DAOC-1
+  what: 'rpg-paradize DAoC list, Nov 2008: Ysendar listed'
+- url: https://web.archive.org/web/20120107010330/http://www.rpg-paradize.com/top-site-DAOC-1
+  what: 'rpg-paradize DAoC list, Jan 2012: last year listed'
+- url: https://web.archive.org/web/20140617114617/http://www.dolserver.net/daocportal/search.php
+  what: 'DOL portal listing, 17 June 2014: Ysendar last seen 5 years ago (conflict)'

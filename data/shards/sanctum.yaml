@@ -1,0 +1,15 @@
+id: sanctum
+name: Sanctum
+aka:
+- DOL portal s=1179
+community: en
+runs:
+- start: "2020-02"
+  end: "2020-03"
+  start_sure: approx
+  end_sure: approx
+note: s=1179 renamed; open beta, 26 logins
+sources:
+- url: https://web.archive.org/web/20200406170233/http://www.dolserver.net/daocportal/
+  what: 'DOL portal front page, 6 Apr 2020: Sanctum (Open Beta) (s=1179) about 2020-02, ''New high logins today
+    26'' about 2020-03'

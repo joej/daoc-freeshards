@@ -1,0 +1,16 @@
+id: messina
+name: Messina Shard
+aka:
+- MessinaPvP
+community: other
+runs:
+- start: "2007-04"
+  end: "2008-01"
+  start_sure: bound
+  end_sure: bound
+note: Italian PvP; record 21 online
+sources:
+- url: https://web.archive.org/web/20070504021612/http://www.messinapvp.com/public/sito/page.php?4
+  what: 'messinapvp.com, 4 May 2007: 116 members, record 21 online on 4 Apr'
+- url: https://web.archive.org/web/20080101/http://www.messinapvp.com/public/sito/index.php
+  what: 'messinapvp.com, early 2008: 460 members, chat calls it deserted'

@@ -1,0 +1,20 @@
+id: origins
+name: Origins
+aka:
+- Origins/Genesis
+- daoc-origins.net
+community: en
+runs:
+- start: "2016-12"
+  end: "2017-07"
+  start_sure: approx
+  end_sure: bound
+note: s=609 renamed; open beta Jan 2017
+sources:
+- url: https://web.archive.org/web/20170131040836/http://www.dolserver.net/daocportal/
+  what: 'DOL portal front page, 31 Jan 2017: s=609 ''Origins [Open Beta]'', 23 online; ''Merlin has registered a
+    new server Origins'' about 2016-12-31'
+- url: http://web.archive.org/web/20170710181145/http://www.dolserver.net/daocportal/server.php?s=609
+  what: last archived capture of portal s=609, 10 July 2017 (CDX; page not read)
+- url: https://www.xtremetop100.com/dark-age-of-camelot
+  what: 'XtremeTop100 live list: ''Genesis DAOC freeshard'', daoc-origins.net'

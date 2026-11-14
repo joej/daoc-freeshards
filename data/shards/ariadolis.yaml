@@ -1,0 +1,29 @@
+id: ariadolis
+name: Ariadolis
+aka:
+- Ariadolis I50
+- Ariadolis Reloaded
+- DOL portal s=713, 718, 1084
+community: en
+runs:
+- start: "2007-01"
+  end: "2011"
+  start_sure: bound
+  end_sure: approx
+- start: "2014-08"
+  end: "2014-10"
+  start_sure: approx
+  end_sure: bound
+- start: "2023-09"
+  start_sure: exact
+note: instant-50 Thidranki RvR; revived 2023
+sources:
+- url: http://web.archive.org/web/20070106043451/http://www.xtremetop100.com:80/dark-age-of-camelot
+  what: 'XtremeTop100 DAoC list, Jan 2007: first year ''Ariadolis'' entry seen (XT 2007-2015)'
+- url: https://web.archive.org/web/20140617114617/http://www.dolserver.net/daocportal/search.php
+  what: 'DOL portal listing, 17 June 2014: ''Ariadolis Thidranki RvR'' last seen 3 years ago; Ariadolis/Classic/RPx3
+    4 years ago'
+- url: https://web.archive.org/web/20141004033203/http://www.dolserver.net/daocportal/server.php?s=1084
+  what: 'DOL portal s=1084, 4 Oct 2014: Ariadolis I50, records 60-130 ''2 months ago'''
+- url: https://www.reddit.com/r/daoc/comments/155q3ks/i50_ariadolis_reloaded_whats_the_plan_for_classes/
+  what: 'Reddit (family-tree post): Ariadolis Reloaded launched 8 Sep 2023; end unknown'

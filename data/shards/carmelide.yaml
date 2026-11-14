@@ -1,0 +1,14 @@
+id: carmelide
+name: Carmelide
+aka:
+- DOL portal s=609
+community: en
+runs:
+- start: "2012-01"
+  end: "2012-01"
+  start_sure: bound
+  end_sure: bound
+note: s=609 renamed; Classic/Shrouded Isles
+sources:
+- url: https://web.archive.org/web/20120105062130/http://www.dolserver.net/daocportal/
+  what: 'DOL portal front page, 5 Jan 2012: s=609 ''Carmelide'', 2 online'

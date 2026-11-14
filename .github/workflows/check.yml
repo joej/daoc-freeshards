@@ -14,4 +14,8 @@ jobs:
           python-version: "3.12"
       - run: pip install pyyaml pytest
       - run: python tools/freeshards.py check
+      - name: exports/ matches data/ (run `python tools/freeshards.py export` and commit)
+        run: |
+          python tools/freeshards.py export
+          git diff --exit-code -- exports
       - run: pytest -q

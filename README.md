@@ -4,7 +4,8 @@ Dark Age of Camelot private servers ("freeshards") from 2004 to today, in Englis
 Russian, Spanish and Italian. Each shard has the dates we could prove, and every date has a source.
 Fork it, fix it, add the shard you ran or played on.
 
-The data is drawn as a timeline at [eveofdarkness.org/freeshards](https://eveofdarkness.org/freeshards/).
+The data is drawn as a timeline at [eveofdarkness.org/freeshards](https://eveofdarkness.org/freeshards/), built from
+`exports/freeshards.json` and `data/dol-portal/`; the page says which commit it was built from.
 
 ## What's here
 
@@ -60,7 +61,8 @@ time by the shard itself or measured by the DOL portal, and thin otherwise.
    python tools/freeshards.py export
    pytest
    ```
-3. Open a pull request. CI runs the same checks.
+3. Commit `exports/` with your change and open a pull request. CI runs the same checks and fails if `exports/`
+   is out of date.
 
 No sources yet? Open an issue with what you remember: the name, the language, rough years, a URL.
 

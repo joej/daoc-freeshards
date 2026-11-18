@@ -73,9 +73,11 @@ No sources yet? Open an issue with what you remember: the name, the language, ro
 
 - **The Dawn of Light server portal**, the registry most DOL-based shards listed on: its June 2014
   listing, front pages from 2011 to 2022 and server pages, read through the Wayback Machine at
-  dolserver.net/daocportal. That address went away in 2022–23, but the portal didn't: it lives on at
-  [dolserver.sourceforge.net/serverlisting](https://dolserver.sourceforge.net/serverlisting/), and
-  servers still report to it. All its server pages were read in November 2026; see below.
+  dolserver.net/daocportal. Those copies stop in 2022, but the portal didn't: dolserver.net now redirects to
+  [dolserver.sourceforge.net/serverlisting](https://dolserver.sourceforge.net/serverlisting/), and servers
+  still report to it, because the update address built into DOL and OpenDAoC
+  (portal.dolserver.net/serverlist.php) redirects there too. All its server pages were read in November 2026;
+  see below.
 - **Toplists:** XtremeTop100's DAoC category (from 2004), the French rpg-paradize and vtop100
   lists, and German lists from 2005.
 - **Shards' own sites and forums,** first and last archived copies.

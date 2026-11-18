@@ -9,9 +9,9 @@ runs:
   start_sure: approx
   end_sure: approx
 - start: "2022-02"
-  end: "2022-05"
+  end: "2025"
   start_sure: approx
-  end_sure: bound
+  end_sure: approx
 note: closed 'forever' 2018, restarted 2022
 sources:
 - url: https://web.archive.org/web/20141004033132/http://www.dolserver.net/daocportal/server.php?s=1003
@@ -20,3 +20,5 @@ sources:
   what: 'DOL portal front page, 25 May 2018: ''we Close now forever ... 5 Years Support'' about 2018-01'
 - url: https://web.archive.org/web/20220518045544/http://www.dolserver.net/daocportal/
   what: 'DOL portal front page, 18 May 2022: ''Wir Starten mit einer Neuen Version'' about 2022-02; Staff Only'
+- url: https://dolserver.sourceforge.net/serverlisting/server.php?s=1003
+  what: 'DOL portal s=1003, read 18 Nov 2026: last update 1 year ago (about 2025)'

@@ -16,3 +16,5 @@ sources:
     mid-2022'
 - url: https://web.archive.org/web/20220518045544/http://www.dolserver.net/daocportal/
   what: 'DOL portal front page, 18 May 2022: Celestius RvR (s=1201) 71 online; record 2400 about 2022-02'
+- url: https://dolserver.sourceforge.net/serverlisting/server.php?s=1201
+  what: 'DOL portal s=1201, read 18 Nov 2026: renamed ''Eden''; records 2090-2400 about 2022 continue to 3085 about 2023'

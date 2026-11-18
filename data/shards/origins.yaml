@@ -9,7 +9,11 @@ runs:
   end: "2017-07"
   start_sure: approx
   end_sure: bound
-note: s=609 renamed; open beta Jan 2017
+- start: "2023"
+  end: now
+  start_sure: approx
+  end_sure: bound
+note: s=609 renamed; open beta Jan 2017; relaunched about 2023
 sources:
 - url: https://web.archive.org/web/20170131040836/http://www.dolserver.net/daocportal/
   what: 'DOL portal front page, 31 Jan 2017: s=609 ''Origins [Open Beta]'', 23 online; ''Merlin has registered a
@@ -18,3 +22,5 @@ sources:
   what: last archived capture of portal s=609, 10 July 2017 (CDX; page not read)
 - url: https://www.xtremetop100.com/dark-age-of-camelot
   what: 'XtremeTop100 live list: ''Genesis DAOC freeshard'', daoc-origins.net'
+- url: https://dolserver.sourceforge.net/serverlisting/server.php?s=609
+  what: 'DOL portal s=609, read 18 Nov 2026: ''Origins'', news ''Launched'' 3 years ago (about 2023), last update 4 days ago'

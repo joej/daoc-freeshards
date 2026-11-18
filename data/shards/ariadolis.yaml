@@ -3,7 +3,7 @@ name: Ariadolis
 aka:
 - Ariadolis I50
 - Ariadolis Reloaded
-- DOL portal s=713, 718, 1084
+- DOL portal s=713, 718, 725, 1084, 1085
 community: en
 runs:
 - start: "2007-01"
@@ -27,3 +27,5 @@ sources:
   what: 'DOL portal s=1084, 4 Oct 2014: Ariadolis I50, records 60-130 ''2 months ago'''
 - url: https://www.reddit.com/r/daoc/comments/155q3ks/i50_ariadolis_reloaded_whats_the_plan_for_classes/
   what: 'Reddit (family-tree post): Ariadolis Reloaded launched 8 Sep 2023; end unknown'
+- url: https://dolserver.sourceforge.net/serverlisting/server.php?s=725
+  what: 'DOL portal s=718, 725, 1085, read 18 Nov 2026: more Ariadolis entries, same manager as s=713 and s=1084 (Carnifexe)'

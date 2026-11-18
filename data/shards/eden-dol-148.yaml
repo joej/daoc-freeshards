@@ -15,3 +15,5 @@ sources:
   what: 'DOL portal listing, 17 June 2014: Eden, International, ''1.114 - ALL'', last seen 1 month ago'
 - url: https://web.archive.org/web/20150111153700/http://www.dolserver.net/daocportal/
   what: 'DOL portal front page, 11 Jan 2015: Eden 143 online, ''Eden is back online!'' about 2015-01-04'
+- url: https://dolserver.sourceforge.net/serverlisting/server.php?s=148
+  what: 'DOL portal s=148, read 18 Nov 2026: ''Eden [ Molvik ]'', home page eden-daoc.net, ''Eden is back online!''; record 515, most players seen 522'

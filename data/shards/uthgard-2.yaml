@@ -6,10 +6,10 @@ aka:
 community: en
 runs:
 - start: "2016-05"
-  end: "2022-05"
+  end: now
   start_sure: exact
   end_sure: bound
-note: record 4,160 online, Jan 2017
+note: portal peak 4,376 online; still up 2026
 sources:
 - url: https://forums.overclockers.co.uk/threads/dark-age-of-camelot-uthgard-2-0.18729859/
   what: 'Uthgard 2.0 announcement (family-tree post): open beta 7 May 2016'
@@ -17,3 +17,5 @@ sources:
   what: 'DOL portal front page, 31 Jan 2017: 2199 online, record 4160'
 - url: https://web.archive.org/web/20220518045544/http://www.dolserver.net/daocportal/
   what: 'DOL portal front page, 18 May 2022: 8 online (last front-page sighting)'
+- url: https://dolserver.sourceforge.net/serverlisting/server.php?s=11
+  what: 'DOL portal s=11, read 18 Nov 2026: last update 3 minutes ago; most players seen 4376'

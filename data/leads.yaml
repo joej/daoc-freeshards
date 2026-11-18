@@ -1,19 +1,23 @@
 # Shards we know of but can't date well enough yet. Help wanted.
 leads:
 - name: Storm RvR / Storm D2 (DOL portal s=24, s=837)
-  reason: DOL team's official test servers, not player shards; mostly 0 online after 2012 (records 116 and 66).
+  reason: DOL team's official test servers, not player shards; mostly 0 online after 2012 (records 116 and 66). Both
+    still reporting to the portal in Nov 2026.
 - name: Atlantis (Trials of Atlantis, s=952)
-  reason: Listed 2012-2022 but never left pre-alpha (record 15); a listing, not a running shard.
+  reason: Listed 2012-2022 but never left pre-alpha (record 15); a listing, not a running shard. Last report about
+    2023.
 - name: Lethantis (s=1124)
-  reason: Record 220 (Jan 2016), but only two front-page sightings (Dec 2015-Jan 2017); cut for space.
+  reason: Record 220 (Jan 2016), but only two front-page sightings (Dec 2015-Jan 2017); last report about 2017; cut
+    for space.
 - name: Blackfire RvR (Thidranki Fun Time)
   reason: Ran about two months (Oct-Dec 2005), ~70 online claimed; cut for space.
 - name: Freyad NF (s=1038)
-  reason: Listed 2014-2018 with 0-7 online; nothing beyond portal presence.
+  reason: Listed 2014-2018 with 0-7 online, but the portal recorded up to 219 at some point; last report about 2020.
 - name: Kings of Realms (Italian)
   reason: Only one cited dated capture (Apr 2005, news 27 Mar 2005); later range given without a URL.
 - name: Promise Shard (Italian)
-  reason: One 2005 listing plus a 2014 'last seen 5 years ago' that may be a different restart; too thin.
+  reason: One 2005 listing plus a 2014 'last seen 5 years ago' that may be a different restart; too thin. Portal
+    record 289 (s=242), undated.
 - name: HispaDAoC (Spanish)
   reason: Site captures 2004-2009 only; the shard's content was never read.
 - name: Yvaliss (French)
@@ -42,3 +46,28 @@ leads:
   reason: 'Not yet running: launch announced for 28 Nov 2026.'
 - name: OpenDAoC
   reason: A codebase, not a shard (Atlas's code, 2022); no Atlas -> OpenDAoC link for that reason.
+# From the live DOL portal, read 17-18 Nov 2026 (data/dol-portal/server-pages-2026-11-18.csv). "Record" is the
+# portal's own measured count. Most of these show only '1 decade ago' (10 to 20 years), so only the 2014 listing
+# dates them.
+- name: Argain (s=889, daoc-argain.com)
+  reason: Record 325; on the front page Jan 2012 (0 online); 2014 listing 'last seen 1 year ago'. No start date.
+- name: GvGvE Yggdrasil, earlier ProjectX (s=411)
+  reason: Record 270; 2014 listing 'ProjectX' last seen 4 months ago; renamed later ('Return to Yggdrasil'). Undated.
+- name: Jamtland PvP (s=180)
+  reason: Record 243; 2014 listing 'last seen 4 years ago' (about 2010). No start date.
+- name: Sea Rise PvP Classic SI (s=991)
+  reason: Record 204; listed online (0 players) in June 2014. No other dates.
+- name: S.I.K PvP i50 (s=909)
+  reason: Record 170; 2014 listing 'last seen 5 months ago' (about early 2014). No start date.
+- name: Millennium, earlier Catalyst (s=842, millenniumpvp.boards.net)
+  reason: Most players seen 163; 2014 listing '[Soon]Catalyst' last seen 2 years ago; last report about 2018.
+- name: Antebellum (s=732)
+  reason: Record 147; 2014 listing 'last seen 3 weeks ago'; last report about 2023. No start date.
+- name: Aurora (s=984, aurora-pvp.net)
+  reason: Record 132; 2014 listing 'last seen 1 year ago'. No start date.
+- name: Breamor (s=1, breamor.fr, French)
+  reason: Amtenaël's portal entry (s=1) renamed Breamor; last report about 2026-05. Start and tie to Amtenaël not
+    known.
+- name: Red Moon (s=1200), Titan (s=1203, registered as 'Titian')
+  reason: 'Small recent servers: Red Moon registered about 2021, record 5, still reporting Nov 2026; Titan
+    registered about 2023, record 40, last report about 2023.'

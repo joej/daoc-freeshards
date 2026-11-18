@@ -12,6 +12,10 @@ runs:
   end: "2017-10"
   start_sure: approx
   end_sure: approx
+- start: "2026-10"
+  end: "2026-10"
+  start_sure: approx
+  end_sure: approx
 note: custom classes; '200+ players stable' claimed
 sources:
 - url: https://web.archive.org/web/20170131040836/http://www.dolserver.net/daocportal/
@@ -19,3 +23,5 @@ sources:
     PvP record 50'
 - url: https://web.archive.org/web/20180117231041/http://www.dolserver.net/daocportal/
   what: 'DOL portal front page, 17 Jan 2018: ''Bifrost: The Frontiers'' supports 200+ players, about 2017-10'
+- url: https://dolserver.sourceforge.net/serverlisting/server.php?s=1021
+  what: 'DOL portal s=1021, read 18 Nov 2026: ''Bifrost: The Frontiers'', last update 1 month ago (about 2026-10)'

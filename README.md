@@ -16,6 +16,9 @@ The data is drawn as a timeline at [eveofdarkness.org/freeshards](https://eveofd
 | `data/leads.yaml` | Shards we know of but can't date well enough yet |
 | `data/dol-portal/listing-2014-06-17.csv` | The Dawn of Light server portal's full listing on 17 June 2014: 899 servers |
 | `data/dol-portal/front-pages.csv` | Servers online and their player counts on the portal's front page, 10 captures, 2011–2022 |
+| `data/dol-portal/server-pages-2026-11-18.csv` | Every server page still on the live portal, read 17–18 Nov 2026: 1,018 servers |
+| `data/dol-portal/ip-info.csv` | For each server page with a public address: its registered country in 2010, 2014, 2018, 2022 and now, and whether a recent one is a home or hosting connection |
+| `raw/dol-portal/` | The portal's server pages as fetched, one per line (gzipped JSON), so the CSV can be checked and rebuilt |
 | `exports/` | The same data as `freeshards.json` and CSV tables (`shards`, `runs`, `sources`, `links`), generated |
 
 ## A shard file
@@ -68,15 +71,57 @@ No sources yet? Open an issue with what you remember: the name, the language, ro
 
 ## Where the data comes from
 
-- **The Dawn of Light server portal** (dolserver.net/daocportal), the registry most DOL-based
-  shards listed on until it shut in 2022–23: its June 2014 listing, front pages from 2011 to 2022
-  and server pages, read through the Wayback Machine.
+- **The Dawn of Light server portal**, the registry most DOL-based shards listed on: its June 2014
+  listing, front pages from 2011 to 2022 and server pages, read through the Wayback Machine at
+  dolserver.net/daocportal. That address went away in 2022–23, but the portal didn't: it lives on at
+  [dolserver.sourceforge.net/serverlisting](https://dolserver.sourceforge.net/serverlisting/), and
+  servers still report to it. All its server pages were read in November 2026; see below.
 - **Toplists:** XtremeTop100's DAoC category (from 2004), the French rpg-paradize and vtop100
   lists, and German lists from 2005.
 - **Shards' own sites and forums,** first and last archived copies.
 - **Phoenix's closing announcement** (2021) and other public posts cited per shard.
 
 Not here: Mythic's and Broadsword's official servers.
+
+## The live DOL portal, November 2026
+
+`tools/dol_portal/crawl.py` fetched every server page, `server.php?s=1` to `s=1205`, one request every 20 seconds
+with a user agent that names this repository. 1,018 pages were found; the other IDs answer "Server not found!"
+(fetching 50 of them again gave the same answer every time). 1205 is past the last entry.
+
+`data/dol-portal/server-pages-2026-11-18.csv` has one row per page:
+
+- **Dates are relative** on the portal ("5 years ago"). Each is kept as written, plus the range of months it
+  allows, counted back from the fetch time (`*_from`, `*_to`). The portal rounds down, so "5 years ago" is 5 to
+  just under 6 years, and "1 decade ago" anything from 10 to 20 years. For those, the 2014 listing dates better.
+- **`last_update`** is the last time the server reported to the portal. "Never" means the entry was registered
+  but no server ever reported: 565 of the 1,018.
+- **`peak_players`** is shown only for some servers; **`record_max`** is the highest "Record number of clients"
+  in the page's news. Both were measured by the portal.
+- **`address`** is the Connect address on the page. Public IP addresses are redacted (`[ip-redacted]`, port
+  kept): many servers ran from someone's home connection, and old addresses now belong to other people.
+  Addresses with a number over 255, usually a real one mistyped, are redacted too (`[bad-ip-redacted]`,
+  `address_kind` invalid). Hostnames, private-network addresses and filler ones are kept.
+- **`ip_country`** is the country the internet registries (ARIN, RIPE NCC, APNIC, LACNIC, AFRINIC) had that
+  address delegated to: the organisation's country, not where the machine or the players were. A hosting
+  company's address shows the hosting company's country. Addresses change hands, so it is read from the registry
+  snapshot (2010, 2014, 2018, 2022 or the current one; `ip_country_from`) nearest the server's last report. It is
+  left empty for entries that never reported and for filler addresses such as 1.2.3.4.
+- **`network`** is `home` or `hosting`, read from the address's reverse DNS name on 18 Nov 2026, for servers
+  that reported in the last two years; empty when older or when the name doesn't say.
+- **`managers`**, **`news`** and **`description`** are as posted on the portal by the servers' staff.
+
+The pages in `raw/dol-portal/` are the portal's public pages, unchanged except for blanking a meaningless guest
+session id (`sid=`) and redacting public IP addresses and email addresses. Their text belongs to the portal and to the server staff who wrote it; the licence below
+covers our data, not their words. To rebuild the CSV from them (standard library only, no network):
+
+```sh
+python tools/dol_portal/parse.py
+```
+
+`tools/dol_portal/ip_info.py` rebuilds `ip-info.csv` from the unredacted pages, which are not published; it
+downloads the registries' files (about 70 MB). A test fails if a public IP or email address reaches the
+published files.
 
 ## Licence
 

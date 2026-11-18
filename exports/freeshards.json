@@ -153,6 +153,10 @@
     {
      "url": "https://amtenael.fr/",
      "what": "amtenael.fr forum index, read 2026-11-14: Résurrection running"
+    },
+    {
+     "url": "https://dolserver.sourceforge.net/serverlisting/server.php?s=1",
+     "what": "DOL portal s=1, read 18 Nov 2026: entry now 'Breamor' (breamor.fr), last update 6 months ago; tie to Résurrection not stated"
     }
    ]
   },
@@ -162,7 +166,7 @@
    "aka": [
     "Ariadolis I50",
     "Ariadolis Reloaded",
-    "DOL portal s=713, 718, 1084"
+    "DOL portal s=713, 718, 725, 1084, 1085"
    ],
    "community": "en",
    "runs": [
@@ -200,6 +204,10 @@
     {
      "url": "https://www.reddit.com/r/daoc/comments/155q3ks/i50_ariadolis_reloaded_whats_the_plan_for_classes/",
      "what": "Reddit (family-tree post): Ariadolis Reloaded launched 8 Sep 2023; end unknown"
+    },
+    {
+     "url": "https://dolserver.sourceforge.net/serverlisting/server.php?s=725",
+     "what": "DOL portal s=718, 725, 1085, read 18 Nov 2026: more Ariadolis entries, same manager as s=713 and s=1084 (Carnifexe)"
     }
    ]
   },
@@ -286,6 +294,12 @@
      "end": "2017-10",
      "start_sure": "approx",
      "end_sure": "approx"
+    },
+    {
+     "start": "2026-10",
+     "end": "2026-10",
+     "start_sure": "approx",
+     "end_sure": "approx"
     }
    ],
    "note": "custom classes; '200+ players stable' claimed",
@@ -297,6 +311,10 @@
     {
      "url": "https://web.archive.org/web/20180117231041/http://www.dolserver.net/daocportal/",
      "what": "DOL portal front page, 17 Jan 2018: 'Bifrost: The Frontiers' supports 200+ players, about 2017-10"
+    },
+    {
+     "url": "https://dolserver.sourceforge.net/serverlisting/server.php?s=1021",
+     "what": "DOL portal s=1021, read 18 Nov 2026: 'Bifrost: The Frontiers', last update 1 month ago (about 2026-10)"
     }
    ]
   },
@@ -337,13 +355,14 @@
    "name": "Brotherland II",
    "aka": [
     "BrotherLand 2",
+    "Brotherland New Frontiers",
     "DOL portal s=409"
    ],
    "community": "en",
    "runs": [
     {
      "start": "2018-05",
-     "end": "2022-05",
+     "end": "now",
      "start_sure": "bound",
      "end_sure": "bound"
     }
@@ -357,6 +376,10 @@
     {
      "url": "https://web.archive.org/web/20220518045544/http://www.dolserver.net/daocportal/",
      "what": "DOL portal front page, 18 May 2022: 'Brotherland II New Calegonia Egg Event begins', 0 online"
+    },
+    {
+     "url": "https://dolserver.sourceforge.net/serverlisting/server.php?s=409",
+     "what": "DOL portal s=409, read 18 Nov 2026: 'Brotherland New Frontiers', last update 38 minutes ago; record 640 about 2021"
     }
    ]
   },
@@ -446,6 +469,10 @@
     {
      "url": "https://web.archive.org/web/20220518045544/http://www.dolserver.net/daocportal/",
      "what": "DOL portal front page, 18 May 2022: Celestius RvR (s=1201) 71 online; record 2400 about 2022-02"
+    },
+    {
+     "url": "https://dolserver.sourceforge.net/serverlisting/server.php?s=1201",
+     "what": "DOL portal s=1201, read 18 Nov 2026: renamed 'Eden'; records 2090-2400 about 2022 continue to 3085 about 2023"
     }
    ]
   },
@@ -540,7 +567,7 @@
      "end_sure": "bound"
     }
    ],
-   "note": "seasonal; Season 3 from Mar 2025",
+   "note": "seasonal; portal record 3,085 (2023)",
    "sources": [
     {
      "url": "https://web.archive.org/web/20221215000000/https://eden-daoc.net/",
@@ -557,6 +584,10 @@
     {
      "url": "https://eden-daoc.net/",
      "what": "Eden home page: Season 3 ends 10 Dec 2026"
+    },
+    {
+     "url": "https://dolserver.sourceforge.net/serverlisting/server.php?s=1201",
+     "what": "DOL portal s=1201 (Celestius's entry), read 18 Nov 2026: 'Eden', eden-daoc.net; records 2840-3085 about 2023, last update 3 years ago"
     }
    ]
   },
@@ -585,6 +616,10 @@
     {
      "url": "https://web.archive.org/web/20150111153700/http://www.dolserver.net/daocportal/",
      "what": "DOL portal front page, 11 Jan 2015: Eden 143 online, 'Eden is back online!' about 2015-01-04"
+    },
+    {
+     "url": "https://dolserver.sourceforge.net/serverlisting/server.php?s=148",
+     "what": "DOL portal s=148, read 18 Nov 2026: 'Eden [ Molvik ]', home page eden-daoc.net, 'Eden is back online!'; record 515, most players seen 522"
     }
    ]
   },
@@ -653,7 +688,8 @@
    "id": "genesis",
    "name": "Genesis",
    "aka": [
-    "DOL portal s=609"
+    "Genesis 2.0",
+    "DOL portal s=609, 1120"
    ],
    "community": "en",
    "runs": [
@@ -681,6 +717,10 @@
     {
      "url": "https://web.archive.org/web/20160128162036/http://www.dolserver.net/daocportal/",
      "what": "DOL portal front page, 28 Jan 2016: Genesis 311 online"
+    },
+    {
+     "url": "https://dolserver.sourceforge.net/serverlisting/server.php?s=1120",
+     "what": "DOL portal s=1120, read 18 Nov 2026: 'Genesis 2.0', same managers as s=609 (Shursan, Xephor); news 'Origins has reopened'"
     }
    ]
   },
@@ -800,6 +840,12 @@
      "end": "2014-12",
      "start_sure": "bound",
      "end_sure": "bound"
+    },
+    {
+     "start": "2023",
+     "end": "2023",
+     "start_sure": "approx",
+     "end_sure": "approx"
     }
    ],
    "note": "'one of the first German freeshards'",
@@ -815,6 +861,10 @@
     {
      "url": "https://web.archive.org/web/20260521130809/http://www.kheldron.de/",
      "what": "kheldron.de, 21 May 2026: last game news 24 Dec 2014 (crash, restart)"
+    },
+    {
+     "url": "https://dolserver.sourceforge.net/serverlisting/server.php?s=50",
+     "what": "DOL portal s=50, read 18 Nov 2026: last update 3 years ago (about 2023)"
     }
    ]
   },
@@ -907,9 +957,9 @@
    "runs": [
     {
      "start": "2020-12",
-     "end": "2022-05",
+     "end": "2026-02",
      "start_sure": "exact",
-     "end_sure": "bound"
+     "end_sure": "approx"
     }
    ],
    "note": "portal record 510, Dec 2020",
@@ -925,6 +975,10 @@
     {
      "url": "https://web.archive.org/web/20220518045544/http://www.dolserver.net/daocportal/",
      "what": "DOL portal front page, 18 May 2022: still 'Instant 50 Open Beta Test', 0 online"
+    },
+    {
+     "url": "https://dolserver.sourceforge.net/serverlisting/server.php?s=1190",
+     "what": "DOL portal s=1190, read 18 Nov 2026: still 'Instant 50 Open Beta Test', last update 9 months ago (about 2026-02)"
     }
    ]
   },
@@ -942,9 +996,15 @@
      "end": "2017-07",
      "start_sure": "approx",
      "end_sure": "bound"
+    },
+    {
+     "start": "2023",
+     "end": "now",
+     "start_sure": "approx",
+     "end_sure": "bound"
     }
    ],
-   "note": "s=609 renamed; open beta Jan 2017",
+   "note": "s=609 renamed; open beta Jan 2017; relaunched about 2023",
    "sources": [
     {
      "url": "https://web.archive.org/web/20170131040836/http://www.dolserver.net/daocportal/",
@@ -957,6 +1017,10 @@
     {
      "url": "https://www.xtremetop100.com/dark-age-of-camelot",
      "what": "XtremeTop100 live list: 'Genesis DAOC freeshard', daoc-origins.net"
+    },
+    {
+     "url": "https://dolserver.sourceforge.net/serverlisting/server.php?s=609",
+     "what": "DOL portal s=609, read 18 Nov 2026: 'Origins', news 'Launched' 3 years ago (about 2023), last update 4 days ago"
     }
    ]
   },
@@ -1082,9 +1146,9 @@
     },
     {
      "start": "2022-02",
-     "end": "2022-05",
+     "end": "2025",
      "start_sure": "approx",
-     "end_sure": "bound"
+     "end_sure": "approx"
     }
    ],
    "note": "closed 'forever' 2018, restarted 2022",
@@ -1100,6 +1164,10 @@
     {
      "url": "https://web.archive.org/web/20220518045544/http://www.dolserver.net/daocportal/",
      "what": "DOL portal front page, 18 May 2022: 'Wir Starten mit einer Neuen Version' about 2022-02; Staff Only"
+    },
+    {
+     "url": "https://dolserver.sourceforge.net/serverlisting/server.php?s=1003",
+     "what": "DOL portal s=1003, read 18 Nov 2026: last update 1 year ago (about 2025)"
     }
    ]
   },
@@ -1173,12 +1241,12 @@
    "runs": [
     {
      "start": "2016-05",
-     "end": "2022-05",
+     "end": "now",
      "start_sure": "exact",
      "end_sure": "bound"
     }
    ],
-   "note": "record 4,160 online, Jan 2017",
+   "note": "portal peak 4,376 online; still up 2026",
    "sources": [
     {
      "url": "https://forums.overclockers.co.uk/threads/dark-age-of-camelot-uthgard-2-0.18729859/",
@@ -1191,6 +1259,10 @@
     {
      "url": "https://web.archive.org/web/20220518045544/http://www.dolserver.net/daocportal/",
      "what": "DOL portal front page, 18 May 2022: 8 online (last front-page sighting)"
+    },
+    {
+     "url": "https://dolserver.sourceforge.net/serverlisting/server.php?s=11",
+     "what": "DOL portal s=11, read 18 Nov 2026: last update 3 minutes ago; most players seen 4376"
     }
    ]
   },
@@ -1387,7 +1459,7 @@
    "from": "celestius",
    "to": "eden-2022",
    "kind": "staff",
-   "evidence": "Family-tree post puts Eden after Celestius in one line (bm01's account); Celestius's old Discord invite now leads to Eden. Kind of tie not stated.",
+   "evidence": "Family-tree post puts Eden after Celestius in one line (bm01's account); Celestius's old Discord invite now leads to Eden. Kind of tie not stated. Celestius's DOL portal entry s=1201 is now 'Eden', its records running on from Celestius's 2,400 to 3,085 (read 18 Nov 2026).",
    "source": "https://web.archive.org/web/20211212085239/https://celestiusrvr.com/patchlevel/"
   },
   {

@@ -1,3 +1,5 @@
 __pycache__/
 .pytest_cache/
 .DS_Store
+raw/dol-portal/pages.sqlite
+raw/rir/

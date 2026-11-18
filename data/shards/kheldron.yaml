@@ -9,6 +9,10 @@ runs:
   end: "2014-12"
   start_sure: bound
   end_sure: bound
+- start: "2023"
+  end: "2023"
+  start_sure: approx
+  end_sure: approx
 note: '''one of the first German freeshards'''
 sources:
 - url: https://web.archive.org/web/20051118174743/http://www.kheldron.de/
@@ -17,3 +21,5 @@ sources:
   what: 'DOL portal s=50, 4 Oct 2014: still reporting, record 13'
 - url: https://web.archive.org/web/20260521130809/http://www.kheldron.de/
   what: 'kheldron.de, 21 May 2026: last game news 24 Dec 2014 (crash, restart)'
+- url: https://dolserver.sourceforge.net/serverlisting/server.php?s=50
+  what: 'DOL portal s=50, read 18 Nov 2026: last update 3 years ago (about 2023)'

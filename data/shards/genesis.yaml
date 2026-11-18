@@ -1,7 +1,8 @@
 id: genesis
 name: Genesis
 aka:
-- DOL portal s=609
+- Genesis 2.0
+- DOL portal s=609, 1120
 community: en
 runs:
 - start: "2014-01"
@@ -18,3 +19,5 @@ sources:
   what: 'DOL portal front page, 11 Jan 2015: Genesis 357 online'
 - url: https://web.archive.org/web/20160128162036/http://www.dolserver.net/daocportal/
   what: 'DOL portal front page, 28 Jan 2016: Genesis 311 online'
+- url: https://dolserver.sourceforge.net/serverlisting/server.php?s=1120
+  what: 'DOL portal s=1120, read 18 Nov 2026: ''Genesis 2.0'', same managers as s=609 (Shursan, Xephor); news ''Origins has reopened'''

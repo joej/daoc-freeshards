@@ -5,9 +5,9 @@ aka:
 community: en
 runs:
 - start: "2020-12"
-  end: "2022-05"
+  end: "2026-02"
   start_sure: exact
-  end_sure: bound
+  end_sure: approx
 note: portal record 510, Dec 2020
 sources:
 - url: https://web.archive.org/web/20210730181352/http://www.dolserver.net/daocportal/server.php?s=1190
@@ -16,3 +16,5 @@ sources:
   what: 'DOL portal front page, 26 Jan 2021: pre-alpha open, record 510 about 2020-12-29'
 - url: https://web.archive.org/web/20220518045544/http://www.dolserver.net/daocportal/
   what: 'DOL portal front page, 18 May 2022: still ''Instant 50 Open Beta Test'', 0 online'
+- url: https://dolserver.sourceforge.net/serverlisting/server.php?s=1190
+  what: 'DOL portal s=1190, read 18 Nov 2026: still ''Instant 50 Open Beta Test'', last update 9 months ago (about 2026-02)'

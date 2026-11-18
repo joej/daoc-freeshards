@@ -9,7 +9,7 @@ runs:
   end: now
   start_sure: exact
   end_sure: bound
-note: seasonal; Season 3 from Mar 2025
+note: seasonal; portal record 3,085 (2023)
 sources:
 - url: https://web.archive.org/web/20221215000000/https://eden-daoc.net/
   what: 'archived Eden site 2022 (family-tree post): launched 10 Dec 2022, Season 3 March 2025'
@@ -19,3 +19,5 @@ sources:
   what: 'Eden: Your Journey (Season 3 rules), Nov 2026'
 - url: https://eden-daoc.net/
   what: 'Eden home page: Season 3 ends 10 Dec 2026'
+- url: https://dolserver.sourceforge.net/serverlisting/server.php?s=1201
+  what: 'DOL portal s=1201 (Celestius''s entry), read 18 Nov 2026: ''Eden'', eden-daoc.net; records 2840-3085 about 2023, last update 3 years ago'

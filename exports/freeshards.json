@@ -505,9 +505,12 @@
      "basis": "#update-news 2021-2022; the DOL portal's address for s=409 is residential per data/dol-portal/ip-info.csv; Nov 2026 Discord: a Windows restart fixed the pathing service"
     },
     "client": {
-     "value": "official 1.109",
+     "value": "official 1.109 (live1325), unmodified; their installer ships a full client",
      "how": "stated",
-     "source": 13
+     "source": [
+      13,
+      14
+     ]
     },
     "client_side": {
      "value": [
@@ -537,14 +540,15 @@
      ]
     },
     "launcher": {
-     "value": "own: Brotherland portal (1.2d 2022, 1.3f 2023, 1.3g 2025); one installer for client and launcher since Dec 2023",
+     "value": "own .NET launcher (Brotherland portal 1.2d 2022, 1.3f 2023, 1.3g 2025) that starts the game through the original 2005 DOL Loader and logs in through a dynamic-DNS host name; one installer for client and launcher since Dec 2023",
      "how": "stated",
      "source": [
       17,
       15,
       14,
       23
-     ]
+     ],
+     "basis": "DOL Loader and dynamic DNS checked in the Dec 2023 installer's files"
     },
     "patcher": {
      "value": "none known",

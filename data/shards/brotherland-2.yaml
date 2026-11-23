@@ -61,11 +61,14 @@ sources:
   what: "shard Discord #update-news, 11 May 2022: level instances"
 - url: https://discord.com/channels/656076025134055464/871104268126523473/1483064876657016893
   what: "shard Discord #update-news, 16 Mar 2026: easy crafting, /salvage all, /sell all"
+- url: https://discord.com/channels/656076025134055464/870472736974176276/1508123316483788860
+  what: "shard Discord #bugreports, 24 May 2026: the developer quotes its server code: int specBuffBonusCap = (int)(living.Level * 1.5 * 1.25)"
 tech:
   server_base:
     value: dol-fork
-    how: inferred
-    basis: "DOL-style server rules and commands in 2021-2026 patch notes; client 1.109, the version DOL pinned in 2012; a separate pathing server, which current DOL and OpenDAoC don't have"
+    how: checked
+    source: 20
+    basis: "the quoted line is DOL's (GameServer/propertycalc/StatCalculator.cs, also in OpenDAoC); client 1.109, the version DOL pinned in 2012; a separate pathing server, which current DOL and OpenDAoC don't have"
   customisation:
     value: heavy
     how: inferred

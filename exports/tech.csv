@@ -1,5 +1,5 @@
 id,field,value,how,source_url,basis
-brotherland-2,server_base,dol-fork,inferred,,"DOL-style server rules and commands in 2021-2026 patch notes; client 1.109, the version DOL pinned in 2012; a separate pathing server, which current DOL and OpenDAoC don't have"
+brotherland-2,server_base,dol-fork,checked,https://discord.com/channels/656076025134055464/870472736974176276/1508123316483788860,"the quoted line is DOL's (GameServer/propertycalc/StatCalculator.cs, also in OpenDAoC); client 1.109, the version DOL pinned in 2012; a separate pathing server, which current DOL and OpenDAoC don't have"
 brotherland-2,customisation,heavy,inferred,,"numbered patches past #238 by Sep 2021, and many own features in #update-news 2021-2026 (sources 16, 18, 19)"
 brotherland-2,pathing,separate,stated,https://discord.com/channels/656076025134055464/871104268126523473/873167281847410759,
 brotherland-2,database,MySQL,stated,https://discord.com/channels/656076025134055464/871104268126523473/875025962314641438,

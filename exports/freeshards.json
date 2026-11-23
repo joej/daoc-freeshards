@@ -362,12 +362,24 @@
    "runs": [
     {
      "start": "2018-05",
-     "end": "now",
+     "end": "2022-02",
      "start_sure": "bound",
+     "end_sure": "approx"
+    },
+    {
+     "start": "2022-04",
+     "end": "2022-09",
+     "start_sure": "exact",
+     "end_sure": "exact"
+    },
+    {
+     "start": "2022-12",
+     "end": "now",
+     "start_sure": "exact",
      "end_sure": "bound"
     }
    ],
-   "note": "same portal entry s=409, ToA. Nov 2026, the shard's Discord: a Windows restart fixed its 'Pathing Service' (server maintenance, not a relaunch)",
+   "note": "same portal entry s=409, ToA. Closure announced Dec 2021, then kept going on donations for about two months; back Apr 2022 on a sponsor's hardware with no wipe; closed Sep 2022; back Dec 2022 (players were asked whether to wipe; outcome not stated). Also a long downtime Jul-Aug 2022. Nov 2026: a Windows restart fixed its 'Pathing Service' (maintenance, not a relaunch)",
    "sources": [
     {
      "url": "https://web.archive.org/web/20180525033214/http://www.dolserver.net/daocportal/",
@@ -380,6 +392,34 @@
     {
      "url": "https://dolserver.sourceforge.net/serverlisting/server.php?s=409",
      "what": "DOL portal s=409, read 18 Nov 2026: 'Brotherland New Frontiers', last update 38 minutes ago; record 640 about 2021"
+    },
+    {
+     "url": "https://discord.com/channels/656076025134055464/871104268126523473/922417695922728980",
+     "what": "shard Discord #update-news, 20 Dec 2021: shutdown announced for the end of the month"
+    },
+    {
+     "url": "https://discord.com/channels/656076025134055464/871104268126523473/924700173807001650",
+     "what": "shard Discord #update-news, 26 Dec 2021: donations cover the server for two months"
+    },
+    {
+     "url": "https://discord.com/channels/656076025134055464/871104268126523473/959509935866151004",
+     "what": "shard Discord #update-news, 1 Apr 2022: back in a few days on a sponsor's hardware, no wipe; 'The Server is back' the same day"
+    },
+    {
+     "url": "https://discord.com/channels/656076025134055464/871104268126523473/1016034867336724530",
+     "what": "shard Discord #update-news, 4 Sep 2022: 'the server has now been closed'"
+    },
+    {
+     "url": "https://discord.com/channels/656076025134055464/871104268126523473/1047417781659910194",
+     "what": "shard Discord #update-news, 30 Nov 2022: 'The server is now ready'"
+    },
+    {
+     "url": "https://discord.com/channels/656076025134055464/871104268126523473/1052685504400855172",
+     "what": "shard Discord #update-news, 14 Dec 2022: links to patch notes from 6 Dec 2022 on"
+    },
+    {
+     "url": "https://discord.com/channels/656076025134055464/871104268126523473/1559147359823339542",
+     "what": "shard Discord #update-news, 12 Oct 2026: latest post, still running"
     }
    ]
   },

@@ -73,3 +73,29 @@ def test_exports_are_up_to_date(tmp_path):
         assert committed.exists(), f"exports/{f.name} is missing: run python tools/freeshards.py export"
         assert committed.read_text(encoding="utf-8") == f.read_text(encoding="utf-8"), \
             f"exports/{f.name} is stale: run python tools/freeshards.py export"
+
+
+TECH_GOOD = {"server_base": {"value": "dol-fork", "how": "inferred", "basis": "DOL commands in its patch notes"},
+             "database": {"value": "MySQL", "how": "stated", "source": 1},
+             "client_side": {"value": ["map patch", "upscaler profile"], "how": "checked", "source": 1}}
+
+
+def test_good_tech_passes():
+    assert errors_for(tech=copy.deepcopy(TECH_GOOD)) == []
+
+
+@pytest.mark.parametrize("tech, expected", [
+    ("MySQL", "tech must be a mapping"),
+    ({"colour": {"value": "red", "how": "stated", "source": 1}}, "unknown field"),
+    ({"database": "MySQL"}, "needs `value` and `how`"),
+    ({"server_base": {"value": "mangos", "how": "stated", "source": 1}}, "value must be one of"),
+    ({"database": {"value": "", "how": "stated", "source": 1}}, "value must be text"),
+    ({"database": {"value": "MySQL", "how": "rumour", "source": 1}}, "how must be one of"),
+    ({"database": {"value": "MySQL", "how": "stated"}}, "needs `source`"),
+    ({"database": {"value": "MySQL", "how": "stated", "source": 5}}, "needs `source`"),
+    ({"database": {"value": "MySQL", "how": "inferred"}}, "needs `basis`"),
+    ({"database": {"value": "MySQL", "how": "stated", "source": [1, 9]}}, "needs `source`"),
+])
+def test_broken_tech_is_caught(tech, expected):
+    errs = errors_for(tech=tech)
+    assert any(expected in e for e in errs), errs

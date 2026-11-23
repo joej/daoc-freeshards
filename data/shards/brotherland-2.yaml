@@ -43,3 +43,68 @@ sources:
   what: "shard Discord #update-news, 14 Dec 2022: links to patch notes from 6 Dec 2022 on"
 - url: https://discord.com/channels/656076025134055464/871104268126523473/1559147359823339542
   what: "shard Discord #update-news, 12 Oct 2026: latest post, still running"
+- url: https://discord.com/channels/656076025134055464/871104268126523473/873167281847410759
+  what: "shard Discord #update-news, 6 Aug 2021: a database upgrade 'excluded the MobPath server', mobs ran through walls"
+- url: https://discord.com/channels/656076025134055464/871104268126523473/875025962314641438
+  what: "shard Discord #update-news, 11 Aug 2021: fixed a memory leak between MySQL and the server"
+- url: https://discord.com/channels/656076025134055464/871104268126523473/975103631013601360
+  what: "shard Discord #update-news, 14 May 2022: Caledonia map patch 'for our daoc 1.109 client'"
+- url: https://discord.com/channels/656076025134055464/871104268126523473/1185975559877038221
+  what: "shard Discord #update-news, 17 Dec 2023: one installer for client and launcher"
+- url: https://discord.com/channels/656076025134055464/871104268126523473/1183811098982502420
+  what: "shard Discord #update-news, 11 Dec 2023: Brotherland portal 1.3f"
+- url: https://discord.com/channels/656076025134055464/871104268126523473/1483709360143204432
+  what: "shard Discord #update-news, 18 Mar 2026: Dynamic PvP Balancing"
+- url: https://discord.com/channels/656076025134055464/871104268126523473/959543934764326942
+  what: "shard Discord #update-news, 1 Apr 2022: 'The Server is back', launcher download (Brotherland portal 1.2d)"
+- url: https://discord.com/channels/656076025134055464/871104268126523473/973916769255297064
+  what: "shard Discord #update-news, 11 May 2022: level instances"
+- url: https://discord.com/channels/656076025134055464/871104268126523473/1483064876657016893
+  what: "shard Discord #update-news, 16 Mar 2026: easy crafting, /salvage all, /sell all"
+tech:
+  server_base:
+    value: dol-fork
+    how: inferred
+    basis: "DOL-style server rules and commands in 2021-2026 patch notes; client 1.109, the version DOL pinned in 2012; a separate pathing server, which current DOL and OpenDAoC don't have"
+  customisation:
+    value: heavy
+    how: inferred
+    basis: "numbered patches past #238 by Sep 2021, and many own features in #update-news 2021-2026 (sources 16, 18, 19)"
+  pathing:
+    value: separate
+    how: stated
+    source: 11
+  database:
+    value: MySQL
+    how: stated
+    source: 12
+  hosting:
+    value: "rented server (2021); sponsor hardware (2022); Windows on a home connection in Germany (2026)"
+    how: inferred
+    basis: "#update-news 2021-2022; the DOL portal's address for s=409 is residential per data/dol-portal/ip-info.csv; Nov 2026 Discord: a Windows restart fixed the pathing service"
+  client:
+    value: official 1.109
+    how: stated
+    source: 13
+  client_side:
+    value:
+    - "map images for zones 250/251 (official files from later clients)"
+    - "on-request RTX/DLSS graphics patch (2026)"
+    how: stated
+    source: [13, 10]
+  custom_content:
+    value:
+    - "Caledonia RvR zone (official zone 250, opened 2022, dropped Nov 2022)"
+    - "level instances"
+    - "dynamic PvP balancing"
+    - "easy crafting, /salvage all, /sell all"
+    how: stated
+    source: [13, 18, 16, 19]
+  launcher:
+    value: "own: Brotherland portal (1.2d 2022, 1.3f 2023); one installer for client and launcher since Dec 2023"
+    how: stated
+    source: [17, 15, 14]
+  patcher:
+    value: none known
+    how: inferred
+    basis: "the installer ships the whole client; no patcher is mentioned in #update-news 2021-2026"

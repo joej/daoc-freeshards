@@ -19,7 +19,7 @@ The data is drawn as a timeline at [eveofdarkness.org/freeshards](https://eveofd
 | `data/dol-portal/server-pages-2026-11-18.csv` | Every server page still on the live portal, read 17–18 Nov 2026: 1,018 servers |
 | `data/dol-portal/ip-info.csv` | For each server page with a public address: its registered country in 2010, 2014, 2018, 2022 and now, and whether a recent one is a home or hosting connection |
 | `raw/dol-portal/` | The portal's server pages as fetched, one per line (gzipped JSON), so the CSV can be checked and rebuilt |
-| `exports/` | The same data as `freeshards.json` and CSV tables (`shards`, `runs`, `sources`, `links`), generated |
+| `exports/` | The same data as `freeshards.json` and CSV tables (`shards`, `runs`, `sources`, `links`, `tech`), generated |
 
 ## A shard file
 
@@ -39,6 +39,30 @@ sources:
 - url: https://web.archive.org/web/2004.../http://www.amtenael.fr/
   what: earliest archived copy of the site
 ```
+
+### Optional: `tech:`, what a shard runs and changed
+
+```yaml
+tech:
+  server_base:               # dol | dol-fork | opendaoc | opendaoc-fork | own | unknown
+    value: dol-fork
+    how: inferred            # stated: the shard said so; checked: we verified it; inferred: worked out
+    basis: "why we think so" # needed for inferred
+  pathing:                   # in-process | separate | none | unknown
+    value: separate
+    how: stated
+    source: 11               # number of an entry in this file's sources (or a list); needed for stated/checked
+  customisation: {value: heavy, how: inferred, basis: "..."}   # vanilla | light | heavy
+  database: {value: MySQL, how: stated, source: 12}            # free text from here on
+  hosting: ...
+  client: ...                # which game.dll players run
+  client_side: [...]         # files, patches or add-ons on the player's side
+  custom_content: [...]      # zones, systems, features of their own
+  launcher: ...
+  patcher: ...
+```
+
+Every field is optional. Exported to `exports/tech.csv` and inside `freeshards.json`.
 
 ## Rules for evidence
 

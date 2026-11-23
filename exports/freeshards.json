@@ -460,6 +460,18 @@
     {
      "url": "https://discord.com/channels/656076025134055464/870472736974176276/1508123316483788860",
      "what": "shard Discord #bugreports, 24 May 2026: the developer quotes its server code: int specBuffBonusCap = (int)(living.Level * 1.5 * 1.25)"
+    },
+    {
+     "url": "https://discord.com/channels/656076025134055464/871104268126523473/1179491556357591232",
+     "what": "shard Discord #update-news, 29 Nov 2023: a Christmas event in Caledonia"
+    },
+    {
+     "url": "https://discord.com/channels/656076025134055464/870472736974176276/1213552078119510119",
+     "what": "shard Discord #bugreports, 2 Mar 2024: Windows had to be restarted because the pathing server had a problem"
+    },
+    {
+     "url": "https://discord.com/channels/656076025134055464/870472736974176276/1421551486906925207",
+     "what": "shard Discord #bugreports, 27 Sep 2025: launcher 1.3g is part of the installer (1.3e is older)"
     }
    ],
    "tech": {
@@ -477,7 +489,10 @@
     "pathing": {
      "value": "separate",
      "how": "stated",
-     "source": 11
+     "source": [
+      11,
+      22
+     ]
     },
     "database": {
      "value": "MySQL",
@@ -507,7 +522,7 @@
     },
     "custom_content": {
      "value": [
-      "Caledonia RvR zone (official zone 250, opened 2022, dropped Nov 2022)",
+      "Caledonia RvR zone (official zone 250, opened Apr 2022; still used in 2023-2025, New Frontiers back from Dec 2022)",
       "level instances",
       "dynamic PvP balancing",
       "easy crafting, /salvage all, /sell all"
@@ -515,18 +530,20 @@
      "how": "stated",
      "source": [
       13,
+      21,
       18,
       16,
       19
      ]
     },
     "launcher": {
-     "value": "own: Brotherland portal (1.2d 2022, 1.3f 2023); one installer for client and launcher since Dec 2023",
+     "value": "own: Brotherland portal (1.2d 2022, 1.3f 2023, 1.3g 2025); one installer for client and launcher since Dec 2023",
      "how": "stated",
      "source": [
       17,
       15,
-      14
+      14,
+      23
      ]
     },
     "patcher": {

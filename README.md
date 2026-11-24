@@ -16,6 +16,7 @@ The data is drawn as a timeline at [eveofdarkness.org/freeshards](https://eveofd
 | `data/leads.yaml` | Shards we know of but can't date well enough yet |
 | `data/dol-portal/listing-2014-06-17.csv` | The Dawn of Light server portal's full listing on 17 June 2014: 899 servers |
 | `data/dol-portal/front-pages.csv` | Servers online and their player counts on the portal's front page, 10 captures, 2011–2022 |
+| `data/dol-portal/uthgard-2-front-pages.csv` | Uthgard (portal server 11) on every front-page capture from 31 May 2016 to 25 May 2018: 38 captures, with the capture time in UTC, the name as shown ("Uthgard [Open Beta]" until launch), players online, and the newest "Record number of clients" news item for Uthgard with its age as the page shows it (the portal prints it as "… ago ago"). Built by `tools/dol_portal/front_page_server.py`; no captures exist between 21 Nov 2016 and 31 Jan 2017, or after 25 May 2018 until 2020 |
 | `data/dol-portal/server-pages-2026-11-18.csv` | Every server page still on the live portal, read 17–18 Nov 2026: 1,018 servers |
 | `data/dol-portal/ip-info.csv` | For each server page with a public address: its registered country in 2010, 2014, 2018, 2022 and now, and whether a recent one is a home or hosting connection |
 | `raw/dol-portal/` | The portal's server pages as fetched, one per line (gzipped JSON), so the CSV can be checked and rebuilt |

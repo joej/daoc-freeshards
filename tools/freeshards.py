@@ -23,6 +23,7 @@ LINK_KINDS = {"rename", "staff", "code"}
 DATE = re.compile(r"^(19|20)\d\d(-(0[1-9]|1[0-2]))?$")
 ID = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 URL = re.compile(r"^https?://\S+$")
+DAY = re.compile(r"^(19|20)\d\d-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?$")
 
 # Optional `tech:` block: what a shard runs and changed. Each entry is {value, how, source?, basis?}.
 #   how: stated  (the shard said so; needs `source`)
@@ -106,6 +107,7 @@ def check(shards, links):
             elif not src.get("what"):
                 errors.append(f"{where}: source {j}: say what the source shows in `what`")
         errors += check_tech(s, where, len(sources))
+        errors += check_milestones(where, s.get("milestones"), len(sources))
     for k, lk in enumerate(links, 1):
         for end in ("from", "to"):
             if lk.get(end) not in ids:
@@ -150,6 +152,34 @@ def check_tech(s, where, n_sources):
                 errors.append(f"{w}: how: {how} needs `source`, the number (or list of numbers) of entries in sources")
         elif not entry.get("basis"):
             errors.append(f"{w}: how: inferred needs `basis`, saying what it was worked out from")
+
+
+def check_milestones(where, milestones, n_sources):
+    """Optional dated events in a shard's life (open beta, launch, wipe...). Each needs a date, what happened, and
+    `source`: the 1-based number of the entry in `sources` that states it."""
+    if milestones is None:
+        return []
+    if not isinstance(milestones, list):
+        return [f"{where}: milestones must be a list"]
+    errors = []
+    prev = ""
+    for i, m in enumerate(milestones, 1):
+        at = f"{where}: milestone {i}"
+        if not isinstance(m, dict) or set(m) - {"date", "what", "source"}:
+            errors.append(f"{at}: allowed keys are date, what, source")
+            continue
+        d = m.get("date")
+        if not isinstance(d, str) or not DAY.match(d):
+            errors.append(f"{at}: date must be \"YYYY-MM-DD\" or \"YYYY-MM\", in quotes")
+            continue
+        if not m.get("what") or not isinstance(m["what"], str):
+            errors.append(f"{at}: say what happened in `what`")
+        src = m.get("source")
+        if isinstance(src, bool) or not isinstance(src, int) or not 1 <= src <= n_sources:
+            errors.append(f"{at}: source must be the number (1 to {n_sources}) of the entry in sources that states it")
+        if d < prev:
+            errors.append(f"{at}: milestones must be in date order")
+        prev = d
     return errors
 
 
@@ -186,6 +216,12 @@ def export(shards, links, out=EXPORTS):
                 ns = e.get("source") or []
                 src = " ".join(s["sources"][x - 1]["url"] for x in (ns if isinstance(ns, list) else [ns]))
                 w.writerow([s["id"], field, "; ".join(v) if isinstance(v, list) else v, e["how"], src, e.get("basis", "")])
+    with open(out / "milestones.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["id", "date", "what", "source_url"])
+        for s in clean:
+            for m in s.get("milestones") or []:
+                w.writerow([s["id"], m["date"], m["what"], s["sources"][m["source"] - 1]["url"]])
     with open(out / "links.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["from", "to", "kind", "evidence", "source"])

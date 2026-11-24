@@ -99,3 +99,25 @@ def test_good_tech_passes():
 def test_broken_tech_is_caught(tech, expected):
     errs = errors_for(tech=tech)
     assert any(expected in e for e in errs), errs
+
+
+@pytest.mark.parametrize("milestones, expected", [
+    ("2017-01-06", "milestones must be a list"),
+    ([{"date": "2017-01-06", "what": "launch", "source": 1, "url": "x"}], "allowed keys"),
+    ([{"date": "6 Jan 2017", "what": "launch", "source": 1}], "date must be"),
+    ([{"date": "2017-13-01", "what": "launch", "source": 1}], "date must be"),
+    ([{"date": "2017-01-06", "source": 1}], "say what happened"),
+    ([{"date": "2017-01-06", "what": "launch"}], "source must be"),
+    ([{"date": "2017-01-06", "what": "launch", "source": 2}], "source must be"),
+    ([{"date": "2017-01-06", "what": "launch", "source": True}], "source must be"),
+    ([{"date": "2017-01-06", "what": "launch", "source": 1},
+      {"date": "2016-05", "what": "open beta", "source": 1}], "date order"),
+])
+def test_bad_milestones_are_rejected(milestones, expected):
+    errs = errors_for(milestones=milestones)
+    assert any(expected in e for e in errs), errs
+
+
+def test_good_milestones_pass():
+    assert errors_for(milestones=[{"date": "2016-05", "what": "open beta", "source": 1},
+                                  {"date": "2017-01-06", "what": "launch", "source": 1}]) == []

@@ -1246,6 +1246,18 @@
      "end_sure": "bound"
     }
    ],
+   "milestones": [
+    {
+     "date": "2016-05-07",
+     "what": "open beta",
+     "source": 1
+    },
+    {
+     "date": "2017-01-06",
+     "what": "launch",
+     "source": 2
+    }
+   ],
    "note": "open beta 7 May 2016, launch 6 Jan 2017; portal peak 4,376 online; still up 2026",
    "sources": [
     {

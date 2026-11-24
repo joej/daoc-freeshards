@@ -1208,13 +1208,13 @@
    "community": "en",
    "runs": [
     {
-     "start": "2003",
+     "start": "2004-01",
      "end": "2013-12",
      "start_sure": "approx",
      "end_sure": "approx"
     }
    ],
-   "note": "record 1,500 online, late 2013",
+   "note": "record 1,500 online, late 2013; start from a staff \"3-year anniversary\" post of Jan 2007 (a later recap says about 2003)",
    "sources": [
     {
      "url": "https://forums.overclockers.co.uk/threads/dark-age-of-camelot-uthgard-2-0.18729859/",
@@ -1227,6 +1227,10 @@
     {
      "url": "https://web.archive.org/web/20110620192733/http://www.dolserver.net/daocportal/",
      "what": "DOL portal front page, 20 June 2011: Uthgard 1035 online"
+    },
+    {
+     "url": "https://uthgard.net/forum/viewtopic.php?t=2929",
+     "what": "Uthgard forum (login required), News, 7 Jan 2007: \"3-year-anniversary !!\" post; three years from about Jan 2004, of the project or the server (not said)"
     }
    ]
   },

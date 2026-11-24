@@ -1246,11 +1246,27 @@
      "end_sure": "bound"
     }
    ],
-   "note": "portal peak 4,376 online; still up 2026",
+   "milestones": [
+    {
+     "date": "2016-05-07",
+     "what": "open beta",
+     "source": 1
+    },
+    {
+     "date": "2017-01-06",
+     "what": "launch",
+     "source": 2
+    }
+   ],
+   "note": "open beta 7 May 2016, launch 6 Jan 2017; portal peak 4,376 online; still up 2026",
    "sources": [
     {
      "url": "https://forums.overclockers.co.uk/threads/dark-age-of-camelot-uthgard-2-0.18729859/",
      "what": "Uthgard 2.0 announcement (family-tree post): open beta 7 May 2016"
+    },
+    {
+     "url": "https://web.archive.org/web/20170127180611/http://www.dolserver.net/daocportal/server.php?s=11",
+     "what": "DOL portal s=11, 27 Jan 2017, server description: \"Launch: Jan 6th, 2017, 19:00 UTC\"; 2889 online"
     },
     {
      "url": "https://web.archive.org/web/20170131040836/http://www.dolserver.net/daocportal/",

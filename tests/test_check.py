@@ -73,3 +73,25 @@ def test_exports_are_up_to_date(tmp_path):
         assert committed.exists(), f"exports/{f.name} is missing: run python tools/freeshards.py export"
         assert committed.read_text(encoding="utf-8") == f.read_text(encoding="utf-8"), \
             f"exports/{f.name} is stale: run python tools/freeshards.py export"
+
+
+@pytest.mark.parametrize("milestones, expected", [
+    ("2017-01-06", "milestones must be a list"),
+    ([{"date": "2017-01-06", "what": "launch", "source": 1, "url": "x"}], "allowed keys"),
+    ([{"date": "6 Jan 2017", "what": "launch", "source": 1}], "date must be"),
+    ([{"date": "2017-13-01", "what": "launch", "source": 1}], "date must be"),
+    ([{"date": "2017-01-06", "source": 1}], "say what happened"),
+    ([{"date": "2017-01-06", "what": "launch"}], "source must be"),
+    ([{"date": "2017-01-06", "what": "launch", "source": 2}], "source must be"),
+    ([{"date": "2017-01-06", "what": "launch", "source": True}], "source must be"),
+    ([{"date": "2017-01-06", "what": "launch", "source": 1},
+      {"date": "2016-05", "what": "open beta", "source": 1}], "date order"),
+])
+def test_bad_milestones_are_rejected(milestones, expected):
+    errs = errors_for(milestones=milestones)
+    assert any(expected in e for e in errs), errs
+
+
+def test_good_milestones_pass():
+    assert errors_for(milestones=[{"date": "2016-05", "what": "open beta", "source": 1},
+                                  {"date": "2017-01-06", "what": "launch", "source": 1}]) == []

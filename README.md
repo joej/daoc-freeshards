@@ -16,10 +16,12 @@ The data is drawn as a timeline at [eveofdarkness.org/freeshards](https://eveofd
 | `data/leads.yaml` | Shards we know of but can't date well enough yet |
 | `data/dol-portal/listing-2014-06-17.csv` | The Dawn of Light server portal's full listing on 17 June 2014: 899 servers |
 | `data/dol-portal/front-pages.csv` | Servers online and their player counts on the portal's front page, 10 captures, 2011–2022 |
+| `data/dol-portal/uthgard-2-front-pages.csv` | Uthgard (portal server 11) on every front-page capture from 31 May 2016 to 25 May 2018: 38 captures, with the capture time in UTC, the name as shown ("Uthgard [Open Beta]" until launch), players online, and the newest "Record number of clients" news item for Uthgard with its age as the page shows it (the portal prints it as "… ago ago"). Built by `tools/dol_portal/front_page_server.py`; no captures exist between 21 Nov 2016 and 31 Jan 2017, or after 25 May 2018 until 2020 |
+| `data/dol-portal/uthgard-2-server-pages.csv` | Readings from Uthgard's own portal server page (server 11) that fill gaps in the front-page captures: so far one, 27 Jan 2017, 2,889 online, three weeks after launch |
 | `data/dol-portal/server-pages-2026-11-18.csv` | Every server page still on the live portal, read 17–18 Nov 2026: 1,018 servers |
 | `data/dol-portal/ip-info.csv` | For each server page with a public address: its registered country in 2010, 2014, 2018, 2022 and now, and whether a recent one is a home or hosting connection |
 | `raw/dol-portal/` | The portal's server pages as fetched, one per line (gzipped JSON), so the CSV can be checked and rebuilt |
-| `exports/` | The same data as `freeshards.json` and CSV tables (`shards`, `runs`, `sources`, `links`), generated |
+| `exports/` | The same data as `freeshards.json` and CSV tables (`shards`, `runs`, `sources`, `links`, `milestones`), generated |
 
 ## A shard file
 
@@ -34,6 +36,10 @@ runs:                        # one per period it was up; a shard that closed and
   start_sure: exact          # exact: a source states it
   end_sure: exact            # bound: only first or last seen (an archive capture, a listing)
                              # approx: worked out from something like "2 months ago"
+milestones:                  # optional: dated events, each stated by one of the sources below
+- date: "YYYY-MM-DD"         # or "YYYY-MM", in quotes, in date order
+  what: open beta            # what happened, in a few words (launch, wipe, merge...)
+  source: 1                  # the number of the entry in sources that states it
 note: first French freeshard; reopened four times
 sources:
 - url: https://web.archive.org/web/2004.../http://www.amtenael.fr/

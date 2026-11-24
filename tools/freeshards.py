@@ -152,6 +152,7 @@ def check_tech(s, where, n_sources):
                 errors.append(f"{w}: how: {how} needs `source`, the number (or list of numbers) of entries in sources")
         elif not entry.get("basis"):
             errors.append(f"{w}: how: inferred needs `basis`, saying what it was worked out from")
+    return errors
 
 
 def check_milestones(where, milestones, n_sources):

@@ -95,3 +95,53 @@ def test_bad_milestones_are_rejected(milestones, expected):
 def test_good_milestones_pass():
     assert errors_for(milestones=[{"date": "2016-05", "what": "open beta", "source": 1},
                                   {"date": "2017-01-06", "what": "launch", "source": 1}]) == []
+
+
+FIG = {"posted_utc": "2017-01-21T01:08Z", "observed_from": "2017-01-21T01:00Z", "observed_to": "2017-01-21T01:00Z",
+       "observed_basis": "a local time in the post", "shard": "example", "kind": "online", "value": "2580",
+       "qualifier": "stated", "what": "/who total", "who": "player",
+       "source_url": "https://example.org/t=1", "source_label": "a forum, login required"}
+
+
+def fig_errors(**changes):
+    r = dict(FIG)
+    r.update(changes)
+    return freeshards.check_figures([r], {"example"}, "figures/test.csv")
+
+
+def test_real_figures_are_valid():
+    shards, _ = freeshards.load()
+    ids = {s["id"] for s in shards}
+    files = freeshards.load_figures()
+    assert files, "no figures files found"
+    for where, rows in files:
+        assert freeshards.check_figures(rows, ids, where) == []
+
+
+def test_good_figure_passes():
+    assert fig_errors() == []
+
+
+@pytest.mark.parametrize("changes, expected", [
+    ({"posted_utc": "21 Jan 2017"}, "posted_utc must be"),
+    ({"observed_to": "2017-01-22T00:00Z", "observed_from": ""}, "after the post"),
+    ({"observed_from": "2017-01-21T01:05Z", "observed_to": "2017-01-21T01:00Z"}, "observed_from is after"),
+    ({"observed_basis": ""}, "observed_basis"),
+    ({"shard": "nowhere"}, "not a shard id"),
+    ({"kind": "guess"}, "kind must be"),
+    ({"value": "~3000"}, "whole number"),
+    ({"qualifier": "maybe"}, "qualifier must be"),
+    ({"who": "anonymous"}, "who must be"),
+    ({"what": ""}, "say what the post says"),
+    ({"source_url": "uthgard forum"}, "source_url must be"),
+    ({"source_label": ""}, "source_url must be"),
+])
+def test_broken_figures_are_caught(changes, expected):
+    errs = fig_errors(**changes)
+    assert any(expected in e for e in errs), errs
+
+
+def test_figures_columns_are_checked():
+    r = dict(FIG)
+    del r["who"]
+    assert "columns must be" in freeshards.check_figures([r], {"example"}, "f")[0]

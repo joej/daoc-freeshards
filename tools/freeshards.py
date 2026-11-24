@@ -172,10 +172,67 @@ def export(shards, links, out=EXPORTS):
             w.writerow([lk["from"], lk["to"], lk["kind"], lk["evidence"], lk["source"]])
 
 
+FIGURE_COLUMNS = ["posted_utc", "observed_from", "observed_to", "observed_basis", "shard", "kind", "value",
+                  "qualifier", "what", "who", "source_url", "source_label"]
+FIGURE_KINDS = {"online", "peak", "typical_peak", "record", "zone", "cap", "capacity"}
+FIGURE_QUALIFIERS = {"stated", "approx", "at_least"}
+FIGURE_WHO = {"staff", "player"}
+UTC = re.compile(r"^(19|20)\d\d-[01]\d-[0-3]\dT[0-2]\d:[0-5]\dZ$")
+
+
+def check_figures(rows, ids, where):
+    """Population figures quoted from a shard's own posts (data/figures/*.csv). A reading is never later than the post
+    that reports it; observed_from/observed_to narrow it when the text gives a time or a window, and observed_basis
+    says how."""
+    errors = []
+    for i, r in enumerate(rows, 2):
+        at = f"{where}: line {i}"
+        if set(r) != set(FIGURE_COLUMNS):
+            return [f"{where}: columns must be {', '.join(FIGURE_COLUMNS)}"]
+        for k in ("posted_utc", "observed_to"):
+            if not UTC.match(r[k]):
+                errors.append(f"{at}: {k} must be YYYY-MM-DDTHH:MMZ")
+        if r["observed_from"] and not UTC.match(r["observed_from"]):
+            errors.append(f"{at}: observed_from must be YYYY-MM-DDTHH:MMZ or empty")
+        elif UTC.match(r["observed_to"]) and UTC.match(r["posted_utc"]):
+            if r["observed_to"] > r["posted_utc"]:
+                errors.append(f"{at}: observed_to is after the post")
+            if r["observed_from"] and r["observed_from"] > r["observed_to"]:
+                errors.append(f"{at}: observed_from is after observed_to")
+            if (r["observed_from"] or r["observed_to"] != r["posted_utc"]) and not r["observed_basis"]:
+                errors.append(f"{at}: say in observed_basis how the observed time was worked out")
+        if r["shard"] not in ids:
+            errors.append(f"{at}: shard {r['shard']!r} is not a shard id")
+        if r["kind"] not in FIGURE_KINDS:
+            errors.append(f"{at}: kind must be one of {', '.join(sorted(FIGURE_KINDS))}")
+        if not r["value"].isdigit():
+            errors.append(f"{at}: value must be a whole number")
+        if r["qualifier"] not in FIGURE_QUALIFIERS:
+            errors.append(f"{at}: qualifier must be one of {', '.join(sorted(FIGURE_QUALIFIERS))}")
+        if r["who"] not in FIGURE_WHO:
+            errors.append(f"{at}: who must be one of {', '.join(sorted(FIGURE_WHO))}")
+        if not r["what"]:
+            errors.append(f"{at}: say what the post says in `what`")
+        if not URL.match(r["source_url"]) or not r["source_label"]:
+            errors.append(f"{at}: source_url must be an http(s) link, with a source_label")
+    return errors
+
+
+def load_figures(data=DATA):
+    out = []
+    for path in sorted((data / "figures").glob("*.csv")):
+        with open(path, newline="", encoding="utf-8") as f:
+            out.append((f"figures/{path.name}", list(csv.DictReader(f))))
+    return out
+
+
 def main(argv):
     cmd = argv[1] if len(argv) > 1 else "check"
     shards, links = load()
     errors = check(shards, links)
+    ids = {s.get("id") for s in shards}
+    for where, rows in load_figures():
+        errors += check_figures(rows, ids, where)
     for e in errors:
         print(e, file=sys.stderr)
     if errors:

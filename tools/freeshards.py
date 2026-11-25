@@ -25,6 +25,20 @@ ID = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 URL = re.compile(r"^https?://\S+$")
 DAY = re.compile(r"^(19|20)\d\d-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?$")
 
+# Optional `tech:` block: what a shard runs and changed. Each entry is {value, how, source?, basis?}.
+#   how: stated  (the shard said so; needs `source`)
+#        checked (we verified it, e.g. in the shard's files or a listing; needs `source`)
+#        inferred (worked out from other facts; needs `basis`)
+#   source: the 1-based number of an entry in this shard's `sources`, or a list of them.
+HOW = {"stated", "checked", "inferred"}
+TECH = {
+    "server_base": {"dol", "dol-fork", "opendaoc", "opendaoc-fork", "own", "unknown"},
+    "customisation": {"vanilla", "light", "heavy"},
+    "pathing": {"in-process", "separate", "none", "unknown"},
+    "database": None, "hosting": None, "client": None,
+    "client_side": None, "custom_content": None, "launcher": None, "patcher": None,
+}
+
 
 def month(d, end=False):
     """'2014' or '2014-05' -> months since year 0, for ordering. 'now' sorts last."""
@@ -92,6 +106,7 @@ def check(shards, links):
                 errors.append(f"{where}: source {j}: url must be an http(s) link")
             elif not src.get("what"):
                 errors.append(f"{where}: source {j}: say what the source shows in `what`")
+        errors += check_tech(s, where, len(sources))
         errors += check_milestones(where, s.get("milestones"), len(sources))
     for k, lk in enumerate(links, 1):
         for end in ("from", "to"):
@@ -103,6 +118,40 @@ def check(shards, links):
             errors.append(f"links.yaml: link {k}: source must be an http(s) link")
         if not lk.get("evidence"):
             errors.append(f"links.yaml: link {k}: evidence is missing")
+    return errors
+
+
+def check_tech(s, where, n_sources):
+    tech = s.get("tech")
+    if tech is None:
+        return []
+    if not isinstance(tech, dict):
+        return [f"{where}: tech must be a mapping of fields"]
+    errors = []
+    for field, entry in tech.items():
+        w = f"{where}: tech.{field}"
+        if field not in TECH:
+            errors.append(f"{w}: unknown field (allowed: {', '.join(TECH)})")
+            continue
+        if not isinstance(entry, dict) or "value" not in entry:
+            errors.append(f"{w}: needs `value` and `how`")
+            continue
+        value, allowed = entry["value"], TECH[field]
+        values = value if isinstance(value, list) else [value]
+        if not values or not all(isinstance(v, str) and v for v in values):
+            errors.append(f"{w}: value must be text or a list of text")
+        elif allowed is not None and (isinstance(value, list) or value not in allowed):
+            errors.append(f"{w}: value must be one of {', '.join(sorted(allowed))}")
+        how = entry.get("how")
+        if how not in HOW:
+            errors.append(f"{w}: how must be one of {', '.join(sorted(HOW))}")
+        elif how in ("stated", "checked"):
+            src = entry.get("source")
+            srcs = src if isinstance(src, list) else [src]
+            if not srcs or not all(isinstance(x, int) and 1 <= x <= n_sources for x in srcs):
+                errors.append(f"{w}: how: {how} needs `source`, the number (or list of numbers) of entries in sources")
+        elif not entry.get("basis"):
+            errors.append(f"{w}: how: inferred needs `basis`, saying what it was worked out from")
     return errors
 
 
@@ -159,6 +208,15 @@ def export(shards, links, out=EXPORTS):
         for s in clean:
             for src in s["sources"]:
                 w.writerow([s["id"], src["url"], src["what"]])
+    with open(out / "tech.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["id", "field", "value", "how", "source_url", "basis"])
+        for s in clean:
+            for field, e in (s.get("tech") or {}).items():
+                v = e["value"]
+                ns = e.get("source") or []
+                src = " ".join(s["sources"][x - 1]["url"] for x in (ns if isinstance(ns, list) else [ns]))
+                w.writerow([s["id"], field, "; ".join(v) if isinstance(v, list) else v, e["how"], src, e.get("basis", "")])
     with open(out / "milestones.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["id", "date", "what", "source_url"])

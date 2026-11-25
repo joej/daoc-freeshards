@@ -15,7 +15,9 @@ avalonia,1,2020-10,bound,2022-10,bound
 bifrost,1,2016-12,approx,2017-10,approx
 bifrost,2,2026-10,approx,2026-10,approx
 britannia,1,2013-06,exact,2015-03,bound
-brotherland-2,1,2018-05,bound,now,bound
+brotherland-2,1,2018-05,bound,2022-02,approx
+brotherland-2,2,2022-04,exact,2022-09,exact
+brotherland-2,3,2022-12,exact,now,bound
 brotherland,1,2011-06,bound,2018-01,bound
 carmelide,1,2012-01,bound,2012-01,bound
 celestius,1,2022-01,approx,2022-05,bound
